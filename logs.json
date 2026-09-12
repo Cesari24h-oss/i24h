@@ -1,0 +1,4502 @@
+[
+  {
+    "id": 1789174053019.1575,
+    "fecha": "2026-09-12T00:47:33.019Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-11, T2)"
+  },
+  {
+    "id": 1789174051221.696,
+    "fecha": "2026-09-12T00:47:31.221Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-11, T1)"
+  },
+  {
+    "id": 1789174014805.9153,
+    "fecha": "2026-09-12T00:46:54.805Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-11, T1)"
+  },
+  {
+    "id": 1789174014305.2063,
+    "fecha": "2026-09-12T00:46:54.305Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Cesar Cortes (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789174007855.764,
+    "fecha": "2026-09-12T00:46:47.855Z",
+    "rol": "colaborador",
+    "actor": "Damari Martinez",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T2",
+    "mensaje": "Damari Martinez hizo \"Me surten\" de Snack en LINCOLN OXXO"
+  },
+  {
+    "id": 1789173976566.6875,
+    "fecha": "2026-09-12T00:46:16.566Z",
+    "rol": "colaborador",
+    "actor": "Damari Martinez",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T2",
+    "mensaje": "Damari Martinez inició sesión (Turno T2 - LINCOLN OXXO)"
+  },
+  {
+    "id": 1789173963472.1716,
+    "fecha": "2026-09-12T00:46:03.472Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes registró una entrada a bodega en LINCOLN OXXO"
+  },
+  {
+    "id": 1789173920577.3848,
+    "fecha": "2026-09-12T00:45:20.577Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-11, T1)"
+  },
+  {
+    "id": 1789173919957.9834,
+    "fecha": "2026-09-12T00:45:19.957Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Cesar Cortes (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789173803748.7383,
+    "fecha": "2026-09-12T00:43:23.748Z",
+    "rol": "colaborador",
+    "actor": "Damari Martinez",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T2",
+    "mensaje": "Damari Martinez (T2 - LINCOLN OXXO) completó Conteo de Novedades"
+  },
+  {
+    "id": 1789173763490.87,
+    "fecha": "2026-09-12T00:42:43.490Z",
+    "rol": "colaborador",
+    "actor": "Damari Martinez",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T2",
+    "mensaje": "Damari Martinez (T2 - LINCOLN OXXO) completó Conteo de Snack"
+  },
+  {
+    "id": 1789173706272.3962,
+    "fecha": "2026-09-12T00:41:46.272Z",
+    "rol": "colaborador",
+    "actor": "Damari Martinez",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T2",
+    "mensaje": "Damari Martinez (T2 - LINCOLN OXXO) completó Conteo de Papelería"
+  },
+  {
+    "id": 1789173440618.7761,
+    "fecha": "2026-09-12T00:37:20.618Z",
+    "rol": "colaborador",
+    "actor": "Damari Martinez",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T2",
+    "mensaje": "Damari Martinez inició sesión (Turno T2 - LINCOLN OXXO)"
+  },
+  {
+    "id": 1789173419281.143,
+    "fecha": "2026-09-12T00:36:59.281Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-11, T1)"
+  },
+  {
+    "id": 1789173419167.566,
+    "fecha": "2026-09-12T00:36:59.167Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Cesar Cortes (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789169858745.611,
+    "fecha": "2026-09-11T23:37:38.745Z",
+    "rol": "colaborador",
+    "actor": "DAMARI MARTINEZ",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T2",
+    "mensaje": "DAMARI MARTINEZ inició sesión (Turno T2 - LINCOLN OXXO)"
+  },
+  {
+    "id": 1789168695462.9749,
+    "fecha": "2026-09-11T23:18:15.462Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-11, T3)"
+  },
+  {
+    "id": 1789168692293.5935,
+    "fecha": "2026-09-11T23:18:12.293Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-11, T2)"
+  },
+  {
+    "id": 1789168687951.9944,
+    "fecha": "2026-09-11T23:18:07.951Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-11, T1)"
+  },
+  {
+    "id": 1789168686616.3047,
+    "fecha": "2026-09-11T23:18:06.616Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-11, T2)"
+  },
+  {
+    "id": 1789168684844.6584,
+    "fecha": "2026-09-11T23:18:04.844Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-11, T1)"
+  },
+  {
+    "id": 1789168684292.7969,
+    "fecha": "2026-09-11T23:18:04.292Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-11, T2)"
+  },
+  {
+    "id": 1789168683486.2285,
+    "fecha": "2026-09-11T23:18:03.486Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-11, T3)"
+  },
+  {
+    "id": 1789168681710.3115,
+    "fecha": "2026-09-11T23:18:01.710Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-11, T2)"
+  },
+  {
+    "id": 1789168652153.9985,
+    "fecha": "2026-09-11T23:17:32.153Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-11, T1)"
+  },
+  {
+    "id": 1789168648334.6897,
+    "fecha": "2026-09-11T23:17:28.334Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-11, T3)"
+  },
+  {
+    "id": 1789168645950.2441,
+    "fecha": "2026-09-11T23:17:25.950Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-11, T1)"
+  },
+  {
+    "id": 1789168602963.0725,
+    "fecha": "2026-09-11T23:16:42.963Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal 2 DE ABRIL (2026-09-11, T1)"
+  },
+  {
+    "id": 1789168602900.7612,
+    "fecha": "2026-09-11T23:16:42.900Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Tanya Luna (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789168274686.1912,
+    "fecha": "2026-09-11T23:11:14.686Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-11, T1)"
+  },
+  {
+    "id": 1789168272892.9666,
+    "fecha": "2026-09-11T23:11:12.892Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-11, T2)"
+  },
+  {
+    "id": 1789168271396.3083,
+    "fecha": "2026-09-11T23:11:11.396Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-11, T3)"
+  },
+  {
+    "id": 1789168269948.1736,
+    "fecha": "2026-09-11T23:11:09.948Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-11, T1)"
+  },
+  {
+    "id": 1789168268621.3975,
+    "fecha": "2026-09-11T23:11:08.621Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-11, T2)"
+  },
+  {
+    "id": 1789168265931.9055,
+    "fecha": "2026-09-11T23:11:05.931Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-11, T1)"
+  },
+  {
+    "id": 1789168262132.602,
+    "fecha": "2026-09-11T23:11:02.132Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-11, T2)"
+  },
+  {
+    "id": 1789168259347.1606,
+    "fecha": "2026-09-11T23:10:59.347Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-11, T1)"
+  },
+  {
+    "id": 1789168257717.11,
+    "fecha": "2026-09-11T23:10:57.717Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-11, T2)"
+  },
+  {
+    "id": 1789168250764.1812,
+    "fecha": "2026-09-11T23:10:50.764Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-11, T1)"
+  },
+  {
+    "id": 1789168246774.784,
+    "fecha": "2026-09-11T23:10:46.774Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-11, T2)"
+  },
+  {
+    "id": 1789168244432.9065,
+    "fecha": "2026-09-11T23:10:44.432Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-11, T1)"
+  },
+  {
+    "id": 1789167797151.1804,
+    "fecha": "2026-09-11T23:03:17.151Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "INSURGENTES",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal INSURGENTES (2026-09-11, T1)"
+  },
+  {
+    "id": 1789167792711.6018,
+    "fecha": "2026-09-11T23:03:12.711Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "ARTEAGA",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal ARTEAGA (2026-09-11, T1)"
+  },
+  {
+    "id": 1789167788098.663,
+    "fecha": "2026-09-11T23:03:08.098Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-11, T1)"
+  },
+  {
+    "id": 1789167787554.9758,
+    "fecha": "2026-09-11T23:03:07.554Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-11, T2)"
+  },
+  {
+    "id": 1789167786576.9976,
+    "fecha": "2026-09-11T23:03:06.576Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-11, T3)"
+  },
+  {
+    "id": 1789167785739.586,
+    "fecha": "2026-09-11T23:03:05.739Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-11, T2)"
+  },
+  {
+    "id": 1789167785003.7173,
+    "fecha": "2026-09-11T23:03:05.003Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-11, T1)"
+  },
+  {
+    "id": 1789167781709.289,
+    "fecha": "2026-09-11T23:03:01.709Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-11, T2)"
+  },
+  {
+    "id": 1789167617553.1418,
+    "fecha": "2026-09-11T23:00:17.553Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-11, T1)"
+  },
+  {
+    "id": 1789167615680.9683,
+    "fecha": "2026-09-11T23:00:15.680Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "CONCORDIA",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal CONCORDIA (2026-09-11, T1)"
+  },
+  {
+    "id": 1789167613881.8906,
+    "fecha": "2026-09-11T23:00:13.881Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-11, T1)"
+  },
+  {
+    "id": 1789167611831.1843,
+    "fecha": "2026-09-11T23:00:11.831Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN 2",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN 2 (2026-09-11, T1)"
+  },
+  {
+    "id": 1789166533589.1528,
+    "fecha": "2026-09-11T22:42:13.589Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-11, T1)"
+  },
+  {
+    "id": 1789166533520.2485,
+    "fecha": "2026-09-11T22:42:13.520Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Cesar Cortes (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789166288902.8362,
+    "fecha": "2026-09-11T22:38:08.902Z",
+    "rol": "colaborador",
+    "actor": "DAMARI MARTINEZ",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T2",
+    "mensaje": "DAMARI MARTINEZ inició sesión (Turno T2 - LINCOLN OXXO)"
+  },
+  {
+    "id": 1789166157706.6262,
+    "fecha": "2026-09-11T22:35:57.706Z",
+    "rol": "colaborador",
+    "actor": "Nadia Bulnes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T1",
+    "mensaje": "Nadia Bulnes registró el Corte de Caja del turno T1 en LINCOLN OXXO"
+  },
+  {
+    "id": 1789165940836.9077,
+    "fecha": "2026-09-11T22:32:20.836Z",
+    "rol": "colaborador",
+    "actor": "Nadia Bulnes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T1",
+    "mensaje": "Nadia Bulnes inició sesión (Turno T1 - LINCOLN OXXO)"
+  },
+  {
+    "id": 1789165908501.168,
+    "fecha": "2026-09-11T22:31:48.501Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal 2 DE ABRIL (2026-09-11, T1)"
+  },
+  {
+    "id": 1789165908449.9368,
+    "fecha": "2026-09-11T22:31:48.449Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Tanya Luna (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789165866171.2026,
+    "fecha": "2026-09-11T22:31:06.171Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-11, T2)"
+  },
+  {
+    "id": 1789165864979.6487,
+    "fecha": "2026-09-11T22:31:04.979Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-11, T3)"
+  },
+  {
+    "id": 1789165864131.7559,
+    "fecha": "2026-09-11T22:31:04.131Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-11, T2)"
+  },
+  {
+    "id": 1789165856097.5938,
+    "fecha": "2026-09-11T22:30:56.097Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-11, T1)"
+  },
+  {
+    "id": 1789165571719.5159,
+    "fecha": "2026-09-11T22:26:11.719Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-11, T1)"
+  },
+  {
+    "id": 1789165571660.6729,
+    "fecha": "2026-09-11T22:26:11.660Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Cesar Cortes (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789165255403.4,
+    "fecha": "2026-09-11T22:20:55.403Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-11, T1)"
+  },
+  {
+    "id": 1789165255346.0864,
+    "fecha": "2026-09-11T22:20:55.346Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Cesar Cortes (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789164352952.7444,
+    "fecha": "2026-09-11T22:05:52.952Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal 2 DE ABRIL (2026-09-11, T1)"
+  },
+  {
+    "id": 1789164336418.0537,
+    "fecha": "2026-09-11T22:05:36.418Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal 2 DE ABRIL (2026-09-11, T1)"
+  },
+  {
+    "id": 1789164336330.2166,
+    "fecha": "2026-09-11T22:05:36.330Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Tanya Luna (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789163991581.9487,
+    "fecha": "2026-09-11T21:59:51.581Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-11, T1)"
+  },
+  {
+    "id": 1789163991529.4707,
+    "fecha": "2026-09-11T21:59:51.529Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Cesar Cortes (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789163733122.016,
+    "fecha": "2026-09-11T21:55:33.122Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-11, T1)"
+  },
+  {
+    "id": 1789163733033.315,
+    "fecha": "2026-09-11T21:55:33.033Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Cesar Cortes (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789162875888.921,
+    "fecha": "2026-09-11T21:41:15.888Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-11, T1)"
+  },
+  {
+    "id": 1789162875832.5037,
+    "fecha": "2026-09-11T21:41:15.832Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Cesar Cortes (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789162580908.994,
+    "fecha": "2026-09-11T21:36:20.908Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-11, T1)"
+  },
+  {
+    "id": 1789162580849.5667,
+    "fecha": "2026-09-11T21:36:20.849Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Cesar Cortes (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789162211508.846,
+    "fecha": "2026-09-11T21:30:11.508Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-11, T1)"
+  },
+  {
+    "id": 1789162211461.0366,
+    "fecha": "2026-09-11T21:30:11.461Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Cesar Cortes (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789161544642.306,
+    "fecha": "2026-09-11T21:19:04.642Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal 2 DE ABRIL (2026-09-11, T1)"
+  },
+  {
+    "id": 1789161544582.4497,
+    "fecha": "2026-09-11T21:19:04.582Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Tanya Luna (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789161541398.7827,
+    "fecha": "2026-09-11T21:19:01.398Z",
+    "rol": "colaborador",
+    "actor": "Nadia Bulnes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T1",
+    "mensaje": "Nadia Bulnes inició sesión (Turno T1 - LINCOLN OXXO)"
+  },
+  {
+    "id": 1789161476598.0503,
+    "fecha": "2026-09-11T21:17:56.598Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-11, T1)"
+  },
+  {
+    "id": 1789161476516.2766,
+    "fecha": "2026-09-11T21:17:56.516Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Cesar Cortes (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789161437314.7207,
+    "fecha": "2026-09-11T21:17:17.314Z",
+    "rol": "colaborador",
+    "actor": "Nadia Bulnes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T1",
+    "mensaje": "Turno T1 cerrado en LINCOLN OXXO por Nadia Bulnes"
+  },
+  {
+    "id": 1789161108969.291,
+    "fecha": "2026-09-11T21:11:48.969Z",
+    "rol": "colaborador",
+    "actor": "Nadia Bulnes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T1",
+    "mensaje": "Nadia Bulnes inició sesión (Turno T1 - LINCOLN OXXO)"
+  },
+  {
+    "id": 1789160462296.6372,
+    "fecha": "2026-09-11T21:01:02.296Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal 2 DE ABRIL (2026-09-11, T1)"
+  },
+  {
+    "id": 1789160462206.3374,
+    "fecha": "2026-09-11T21:01:02.206Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Tanya Luna (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789160268313.0767,
+    "fecha": "2026-09-11T20:57:48.313Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-11, T1)"
+  },
+  {
+    "id": 1789160223144.7336,
+    "fecha": "2026-09-11T20:57:03.144Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-11, T1)"
+  },
+  {
+    "id": 1789160223090.556,
+    "fecha": "2026-09-11T20:57:03.090Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Cesar Cortes (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789159841852.6257,
+    "fecha": "2026-09-11T20:50:41.852Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-11, T1)"
+  },
+  {
+    "id": 1789159841751.6458,
+    "fecha": "2026-09-11T20:50:41.751Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Cesar Cortes (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789159458627.7449,
+    "fecha": "2026-09-11T20:44:18.627Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal 2 DE ABRIL (2026-09-11, T1)"
+  },
+  {
+    "id": 1789159458549.5024,
+    "fecha": "2026-09-11T20:44:18.549Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Tanya Luna (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789159412642.814,
+    "fecha": "2026-09-11T20:43:32.642Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-11, T1)"
+  },
+  {
+    "id": 1789159412528.4954,
+    "fecha": "2026-09-11T20:43:32.528Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Cesar Cortes (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789158522641.83,
+    "fecha": "2026-09-11T20:28:42.641Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-11, T1)"
+  },
+  {
+    "id": 1789158522588.7224,
+    "fecha": "2026-09-11T20:28:42.588Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Cesar Cortes (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789158247086.8818,
+    "fecha": "2026-09-11T20:24:07.086Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-11, T1)"
+  },
+  {
+    "id": 1789158247035.4888,
+    "fecha": "2026-09-11T20:24:07.035Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Cesar Cortes (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789157748221.1345,
+    "fecha": "2026-09-11T20:15:48.221Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-11, T1)"
+  },
+  {
+    "id": 1789157748164.1448,
+    "fecha": "2026-09-11T20:15:48.164Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Cesar Cortes (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789157494190.9277,
+    "fecha": "2026-09-11T20:11:34.190Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-11, T1)"
+  },
+  {
+    "id": 1789157494135.7954,
+    "fecha": "2026-09-11T20:11:34.135Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Cesar Cortes (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789157313516.0222,
+    "fecha": "2026-09-11T20:08:33.516Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-11, T1)"
+  },
+  {
+    "id": 1789157313436.018,
+    "fecha": "2026-09-11T20:08:33.436Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Cesar Cortes (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789156465607.2832,
+    "fecha": "2026-09-11T19:54:25.607Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-11, T1)"
+  },
+  {
+    "id": 1789156465551.9973,
+    "fecha": "2026-09-11T19:54:25.551Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Cesar Cortes (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789156436090.5588,
+    "fecha": "2026-09-11T19:53:56.090Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal 2 DE ABRIL (2026-09-11, T1)"
+  },
+  {
+    "id": 1789156435956.9927,
+    "fecha": "2026-09-11T19:53:55.956Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Tanya Luna (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789155811625.0938,
+    "fecha": "2026-09-11T19:43:31.625Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal 2 DE ABRIL (2026-09-11, T1)"
+  },
+  {
+    "id": 1789155811556.0776,
+    "fecha": "2026-09-11T19:43:31.556Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Tanya Luna (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789155670625.7144,
+    "fecha": "2026-09-11T19:41:10.625Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-11, T1)"
+  },
+  {
+    "id": 1789155670562.4983,
+    "fecha": "2026-09-11T19:41:10.562Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Cesar Cortes (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789155516218.0352,
+    "fecha": "2026-09-11T19:38:36.218Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "INSURGENTES",
+    "turno": null,
+    "mensaje": "Alessandro auditó la sucursal INSURGENTES (2026-09-11, T1)"
+  },
+  {
+    "id": 1789155515879.4414,
+    "fecha": "2026-09-11T19:38:35.879Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Alessandro (lider) inició sesión en el panel"
+  },
+  {
+    "id": 1789153999536.737,
+    "fecha": "2026-09-11T19:13:19.536Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-11, T1)"
+  },
+  {
+    "id": 1789153955212.822,
+    "fecha": "2026-09-11T19:12:35.212Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-11, T1)"
+  },
+  {
+    "id": 1789153955152.8975,
+    "fecha": "2026-09-11T19:12:35.152Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Cesar Cortes (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789153575685.7905,
+    "fecha": "2026-09-11T19:06:15.685Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-11, T1)"
+  },
+  {
+    "id": 1789153575633.6045,
+    "fecha": "2026-09-11T19:06:15.633Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Cesar Cortes (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789153299552.3848,
+    "fecha": "2026-09-11T19:01:39.552Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Alessandro actualizó su foto de perfil"
+  },
+  {
+    "id": 1789153275989.2224,
+    "fecha": "2026-09-11T19:01:15.989Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T3",
+    "mensaje": "Alessandro corrigió contadores en LINCOLN OXXO (turno T3)"
+  },
+  {
+    "id": 1789153236473.4163,
+    "fecha": "2026-09-11T19:00:36.473Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T3",
+    "mensaje": "Alessandro corrigió contadores en LINCOLN OXXO (turno T3)"
+  },
+  {
+    "id": 1789153158775.9556,
+    "fecha": "2026-09-11T18:59:18.775Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "INSURGENTES",
+    "turno": null,
+    "mensaje": "Alessandro auditó la sucursal INSURGENTES (2026-09-11, T1)"
+  },
+  {
+    "id": 1789153158627.4736,
+    "fecha": "2026-09-11T18:59:18.627Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Alessandro (lider) inició sesión en el panel"
+  },
+  {
+    "id": 1789153137788.7288,
+    "fecha": "2026-09-11T18:58:57.788Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-11, T1)"
+  },
+  {
+    "id": 1789153127457.8906,
+    "fecha": "2026-09-11T18:58:47.457Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-11, T1)"
+  },
+  {
+    "id": 1789153127399.7095,
+    "fecha": "2026-09-11T18:58:47.399Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Cesar Cortes (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789152574648.3516,
+    "fecha": "2026-09-11T18:49:34.648Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-11, T1)"
+  },
+  {
+    "id": 1789152566359.0398,
+    "fecha": "2026-09-11T18:49:26.359Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-11, T2)"
+  },
+  {
+    "id": 1789152564297.185,
+    "fecha": "2026-09-11T18:49:24.297Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-11, T1)"
+  },
+  {
+    "id": 1789152553440.5984,
+    "fecha": "2026-09-11T18:49:13.440Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal 2 DE ABRIL (2026-09-11, T1)"
+  },
+  {
+    "id": 1789152553349.8264,
+    "fecha": "2026-09-11T18:49:13.349Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Tanya Luna (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789152533555.5618,
+    "fecha": "2026-09-11T18:48:53.555Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-11, T1)"
+  },
+  {
+    "id": 1789152525925.6277,
+    "fecha": "2026-09-11T18:48:45.925Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-11, T1)"
+  },
+  {
+    "id": 1789152525602.5999,
+    "fecha": "2026-09-11T18:48:45.602Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Cesar Cortes (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789152434451.8787,
+    "fecha": "2026-09-11T18:47:14.451Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro auditó la sucursal LINCOLN OXXO (2026-09-11, T1)"
+  },
+  {
+    "id": 1789152430657.8413,
+    "fecha": "2026-09-11T18:47:10.657Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "INSURGENTES",
+    "turno": null,
+    "mensaje": "Alessandro auditó la sucursal INSURGENTES (2026-09-11, T1)"
+  },
+  {
+    "id": 1789152421165.8513,
+    "fecha": "2026-09-11T18:47:01.165Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro registró una entrada a bodega en LINCOLN OXXO"
+  },
+  {
+    "id": 1789152363793.6304,
+    "fecha": "2026-09-11T18:46:03.793Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro auditó la sucursal LINCOLN OXXO (2026-09-11, T1)"
+  },
+  {
+    "id": 1789152360414.0125,
+    "fecha": "2026-09-11T18:46:00.414Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "INSURGENTES",
+    "turno": null,
+    "mensaje": "Alessandro auditó la sucursal INSURGENTES (2026-09-11, T1)"
+  },
+  {
+    "id": 1789152344259.448,
+    "fecha": "2026-09-11T18:45:44.259Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "INSURGENTES",
+    "turno": null,
+    "mensaje": "Alessandro registró una entrada a bodega en INSURGENTES"
+  },
+  {
+    "id": 1789152214906.3772,
+    "fecha": "2026-09-11T18:43:34.906Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro ajustó el inventario teórico de \"USBS\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789152191253.9336,
+    "fecha": "2026-09-11T18:43:11.253Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro ajustó el inventario teórico de \"PLUMA AZUL\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789152175994.7285,
+    "fecha": "2026-09-11T18:42:55.994Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro ajustó el inventario teórico de \"PASTAS MULTICOLOR\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789152175178.0144,
+    "fecha": "2026-09-11T18:42:55.178Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro ajustó el inventario teórico de \"PASTAS TRANSPARENTES\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789152167806.449,
+    "fecha": "2026-09-11T18:42:47.806Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro ajustó el inventario teórico de \"PASTAS NEGRAS\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789152150295.159,
+    "fecha": "2026-09-11T18:42:30.295Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro ajustó el inventario teórico de \"MICA CARTA\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789152133396.076,
+    "fecha": "2026-09-11T18:42:13.397Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro ajustó el inventario teórico de \"LEGAJO COSTILLA\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789152130326.4673,
+    "fecha": "2026-09-11T18:42:10.326Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro ajustó el inventario teórico de \"LEGAJO COLOR\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789152116911.0767,
+    "fecha": "2026-09-11T18:41:56.911Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro ajustó el inventario teórico de \"LEGAJO OFICIO\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789152114044.526,
+    "fecha": "2026-09-11T18:41:54.044Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro ajustó el inventario teórico de \"LEGAJO CARTA\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789152069599.6843,
+    "fecha": "2026-09-11T18:41:09.599Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro ajustó el inventario teórico de \"HOJA OPALINA\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789152063967.5312,
+    "fecha": "2026-09-11T18:41:03.967Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro ajustó el inventario teórico de \"HOJA ADHESIVA\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789152058745.9011,
+    "fecha": "2026-09-11T18:40:58.745Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro ajustó el inventario teórico de \"TABLOIDE COUCHE\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789152057824.2864,
+    "fecha": "2026-09-11T18:40:57.824Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro ajustó el inventario teórico de \"TABLOIDE OPALINA\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789152054352.1543,
+    "fecha": "2026-09-11T18:40:54.352Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro ajustó el inventario teórico de \"TABLOIDE ADHESIVO\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789151956751.0261,
+    "fecha": "2026-09-11T18:39:16.751Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro auditó la sucursal LINCOLN OXXO (2026-09-11, T1)"
+  },
+  {
+    "id": 1789151943356.126,
+    "fecha": "2026-09-11T18:39:03.356Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "INSURGENTES",
+    "turno": null,
+    "mensaje": "Alessandro auditó la sucursal INSURGENTES (2026-09-11, T1)"
+  },
+  {
+    "id": 1789151898230.8718,
+    "fecha": "2026-09-11T18:38:18.230Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-11, T1)"
+  },
+  {
+    "id": 1789151898136.0137,
+    "fecha": "2026-09-11T18:38:18.136Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-01, T1)"
+  },
+  {
+    "id": 1789151896851.7473,
+    "fecha": "2026-09-11T18:38:16.851Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro auditó la sucursal LINCOLN OXXO (2026-09-10, T1)"
+  },
+  {
+    "id": 1789151892417.1123,
+    "fecha": "2026-09-11T18:38:12.417Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-10, T1)"
+  },
+  {
+    "id": 1789151885296.9,
+    "fecha": "2026-09-11T18:38:05.296Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro auditó la sucursal LINCOLN OXXO (2026-09-11, T1)"
+  },
+  {
+    "id": 1789151708419.5723,
+    "fecha": "2026-09-11T18:35:08.419Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-10, T1)"
+  },
+  {
+    "id": 1789151695537.0613,
+    "fecha": "2026-09-11T18:34:55.537Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "INSURGENTES",
+    "turno": null,
+    "mensaje": "Alessandro auditó la sucursal INSURGENTES (2026-09-11, T1)"
+  },
+  {
+    "id": 1789151394883.862,
+    "fecha": "2026-09-11T18:29:54.883Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-10, T2)"
+  },
+  {
+    "id": 1789151332697.3271,
+    "fecha": "2026-09-11T18:28:52.697Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-10, T3)"
+  },
+  {
+    "id": 1789151332308.2852,
+    "fecha": "2026-09-11T18:28:52.308Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-01, T3)"
+  },
+  {
+    "id": 1789151323375.0674,
+    "fecha": "2026-09-11T18:28:43.375Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-11, T3)"
+  },
+  {
+    "id": 1789151199084.1643,
+    "fecha": "2026-09-11T18:26:39.084Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-11, T1)"
+  },
+  {
+    "id": 1789151196447.7231,
+    "fecha": "2026-09-11T18:26:36.447Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-11, T1)"
+  },
+  {
+    "id": 1789151196369.843,
+    "fecha": "2026-09-11T18:26:36.369Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Cesar Cortes (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789151170294.3,
+    "fecha": "2026-09-11T18:26:10.294Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-10, T3)"
+  },
+  {
+    "id": 1789151170067.3616,
+    "fecha": "2026-09-11T18:26:10.067Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-01, T3)"
+  },
+  {
+    "id": 1789151167733.7249,
+    "fecha": "2026-09-11T18:26:07.733Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-11, T3)"
+  },
+  {
+    "id": 1789151026860.6682,
+    "fecha": "2026-09-11T18:23:46.860Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-11, T1)"
+  },
+  {
+    "id": 1789151020902.3945,
+    "fecha": "2026-09-11T18:23:40.902Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-11, T3)"
+  },
+  {
+    "id": 1789151014135.0286,
+    "fecha": "2026-09-11T18:23:34.135Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal 2 DE ABRIL (2026-09-11, T3)"
+  },
+  {
+    "id": 1789151013491.15,
+    "fecha": "2026-09-11T18:23:33.491Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal 2 DE ABRIL (2026-09-11, T2)"
+  },
+  {
+    "id": 1789151012472.3928,
+    "fecha": "2026-09-11T18:23:32.472Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal 2 DE ABRIL (2026-09-11, T1)"
+  },
+  {
+    "id": 1789151010081.809,
+    "fecha": "2026-09-11T18:23:30.081Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal 2 DE ABRIL (2026-09-11, T3)"
+  },
+  {
+    "id": 1789150985260.4006,
+    "fecha": "2026-09-11T18:23:05.260Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T3",
+    "mensaje": "Tanya Luna corrigió la fecha del turno T3 de LINCOLN OXXO (2026-09-11 → 2026-09-10)"
+  },
+  {
+    "id": 1789150877679.8455,
+    "fecha": "2026-09-11T18:21:17.679Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal 2 DE ABRIL (2026-09-11, T1)"
+  },
+  {
+    "id": 1789150877548.1602,
+    "fecha": "2026-09-11T18:21:17.548Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Tanya Luna (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789150644091.2805,
+    "fecha": "2026-09-11T18:17:24.091Z",
+    "rol": "colaborador",
+    "actor": "Nadia Bulnes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T1",
+    "mensaje": "Nadia Bulnes (T1 - LINCOLN OXXO) completó Conteo de Novedades"
+  },
+  {
+    "id": 1789150604050.7063,
+    "fecha": "2026-09-11T18:16:44.050Z",
+    "rol": "colaborador",
+    "actor": "Nadia Bulnes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T1",
+    "mensaje": "Nadia Bulnes (T1 - LINCOLN OXXO) completó Conteo de Snack"
+  },
+  {
+    "id": 1789150537709.56,
+    "fecha": "2026-09-11T18:15:37.709Z",
+    "rol": "colaborador",
+    "actor": "Nadia Bulnes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T1",
+    "mensaje": "Nadia Bulnes (T1 - LINCOLN OXXO) completó Conteo de Papelería"
+  },
+  {
+    "id": 1789150453747.0793,
+    "fecha": "2026-09-11T18:14:13.747Z",
+    "rol": "colaborador",
+    "actor": "Nadia Bulnes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T1",
+    "mensaje": "Nadia Bulnes inició sesión (Turno T1 - LINCOLN OXXO)"
+  },
+  {
+    "id": 1789149496727.8364,
+    "fecha": "2026-09-11T17:58:16.727Z",
+    "rol": "colaborador",
+    "actor": "ANGEL ADRIAN GALLEGOS BAUTISTA",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T3",
+    "mensaje": "ANGEL ADRIAN GALLEGOS BAUTISTA registró el Corte de Caja del turno T3 en LINCOLN OXXO"
+  },
+  {
+    "id": 1789149249041.1802,
+    "fecha": "2026-09-11T17:54:09.041Z",
+    "rol": "colaborador",
+    "actor": "ANGEL ADRIAN GALLEGOS BAUTISTA",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T3",
+    "mensaje": "Turno T3 cerrado en LINCOLN OXXO por ANGEL ADRIAN GALLEGOS BAUTISTA"
+  },
+  {
+    "id": 1789148171627.841,
+    "fecha": "2026-09-11T17:36:11.627Z",
+    "rol": "colaborador",
+    "actor": "ANGEL ADRIAN GALLEGOS BAUTISTA",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T3",
+    "mensaje": "ANGEL ADRIAN GALLEGOS BAUTISTA (T3 - LINCOLN OXXO) completó Conteo de Novedades"
+  },
+  {
+    "id": 1789148139682.614,
+    "fecha": "2026-09-11T17:35:39.682Z",
+    "rol": "colaborador",
+    "actor": "ANGEL ADRIAN GALLEGOS BAUTISTA",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T3",
+    "mensaje": "ANGEL ADRIAN GALLEGOS BAUTISTA (T3 - LINCOLN OXXO) completó Conteo de Snack"
+  },
+  {
+    "id": 1789148015377.6436,
+    "fecha": "2026-09-11T17:33:35.377Z",
+    "rol": "colaborador",
+    "actor": "ANGEL ADRIAN GALLEGOS BAUTISTA",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T3",
+    "mensaje": "ANGEL ADRIAN GALLEGOS BAUTISTA (T3 - LINCOLN OXXO) completó Conteo de Papelería"
+  },
+  {
+    "id": 1789147839130.7205,
+    "fecha": "2026-09-11T17:30:39.130Z",
+    "rol": "colaborador",
+    "actor": "ANGEL ADRIAN GALLEGOS BAUTISTA",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T3",
+    "mensaje": "ANGEL ADRIAN GALLEGOS BAUTISTA inició sesión (Turno T3 - LINCOLN OXXO)"
+  },
+  {
+    "id": 1789147656568.4617,
+    "fecha": "2026-09-11T17:27:36.568Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "INSURGENTES",
+    "turno": null,
+    "mensaje": "Alessandro auditó la sucursal INSURGENTES (2026-09-11, T1)"
+  },
+  {
+    "id": 1789147655936.6116,
+    "fecha": "2026-09-11T17:27:35.936Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Alessandro (lider) inició sesión en el panel"
+  },
+  {
+    "id": 1789147643749.4824,
+    "fecha": "2026-09-11T17:27:23.749Z",
+    "rol": "colaborador",
+    "actor": "ANGEL ADRIAN GALLEGOS BAUTISTA",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T3",
+    "mensaje": "ANGEL ADRIAN GALLEGOS BAUTISTA inició sesión (Turno T3 - LINCOLN OXXO)"
+  },
+  {
+    "id": 1789147625324.462,
+    "fecha": "2026-09-11T17:27:05.324Z",
+    "rol": "colaborador",
+    "actor": "DAMARI MARTINEZ",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T2",
+    "mensaje": "DAMARI MARTINEZ registró el Corte de Caja del turno T2 en LINCOLN OXXO"
+  },
+  {
+    "id": 1789147381746.3936,
+    "fecha": "2026-09-11T17:23:01.746Z",
+    "rol": "colaborador",
+    "actor": "DAMARI MARTINEZ",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T2",
+    "mensaje": "Turno T2 cerrado en LINCOLN OXXO por DAMARI MARTINEZ"
+  },
+  {
+    "id": 1789147052796.054,
+    "fecha": "2026-09-11T17:17:32.796Z",
+    "rol": "colaborador",
+    "actor": "DAMARI MARTINEZ",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T2",
+    "mensaje": "DAMARI MARTINEZ inició sesión (Turno T2 - LINCOLN OXXO)"
+  },
+  {
+    "id": 1789147040340.0054,
+    "fecha": "2026-09-11T17:17:20.340Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "INSURGENTES",
+    "turno": null,
+    "mensaje": "Alessandro auditó la sucursal INSURGENTES (2026-09-11, T1)"
+  },
+  {
+    "id": 1789147040166.143,
+    "fecha": "2026-09-11T17:17:20.166Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Alessandro (lider) inició sesión en el panel"
+  },
+  {
+    "id": 1789088702927.9412,
+    "fecha": "2026-09-11T01:05:02.927Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-10, T1)"
+  },
+  {
+    "id": 1789088697622.8433,
+    "fecha": "2026-09-11T01:04:57.622Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-10, T2)"
+  },
+  {
+    "id": 1789088656093.0935,
+    "fecha": "2026-09-11T01:04:16.093Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-10, T1)"
+  },
+  {
+    "id": 1789088605772.9255,
+    "fecha": "2026-09-11T01:03:25.772Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal 2 DE ABRIL (2026-09-10, T1)"
+  },
+  {
+    "id": 1789088605701.0776,
+    "fecha": "2026-09-11T01:03:25.701Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Tanya Luna (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789088570955.444,
+    "fecha": "2026-09-11T01:02:50.955Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-10, T1)"
+  },
+  {
+    "id": 1789088570691.226,
+    "fecha": "2026-09-11T01:02:50.691Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Cesar Cortes (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789088390876.0703,
+    "fecha": "2026-09-11T00:59:50.876Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-10)"
+  },
+  {
+    "id": 1789088386580.5818,
+    "fecha": "2026-09-11T00:59:46.580Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "SIMON BOLIVAR",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal SIMON BOLIVAR (2026-09-10)"
+  },
+  {
+    "id": 1789088157229.7688,
+    "fecha": "2026-09-11T00:55:57.229Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal 2 DE ABRIL (2026-09-10)"
+  },
+  {
+    "id": 1789088061095.625,
+    "fecha": "2026-09-11T00:54:21.095Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro ajustó el inventario teórico de \"LEGAJO OFICIO\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789088055680.065,
+    "fecha": "2026-09-11T00:54:15.680Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro ajustó el inventario teórico de \"LEGAJO CARTA\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789088030575.708,
+    "fecha": "2026-09-11T00:53:50.575Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro auditó la sucursal LINCOLN OXXO (2026-09-10)"
+  },
+  {
+    "id": 1789088027222.8547,
+    "fecha": "2026-09-11T00:53:47.222Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "INSURGENTES",
+    "turno": null,
+    "mensaje": "Alessandro auditó la sucursal INSURGENTES (2026-09-10)"
+  },
+  {
+    "id": 1789088007652.3655,
+    "fecha": "2026-09-11T00:53:27.652Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro ajustó el inventario teórico de \"USBS\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789087999025.8447,
+    "fecha": "2026-09-11T00:53:19.025Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T2",
+    "mensaje": "Alessandro corrigió contadores en LINCOLN OXXO (turno T2)"
+  },
+  {
+    "id": 1789087934540.9849,
+    "fecha": "2026-09-11T00:52:14.540Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro ajustó el inventario teórico de \"CARTULINA\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789087924494.4556,
+    "fecha": "2026-09-11T00:52:04.494Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro ajustó el inventario teórico de \"TABLOIDE OPALINA\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789087920144.1265,
+    "fecha": "2026-09-11T00:52:00.144Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro ajustó el inventario teórico de \"TABLOIDE COUCHE\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789087910501.822,
+    "fecha": "2026-09-11T00:51:50.501Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro ajustó el inventario teórico de \"TABLOIDE ADHESIVO\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789087899756.8086,
+    "fecha": "2026-09-11T00:51:39.756Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro ajustó el inventario teórico de \"HOJA OPALINA\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789087849026.285,
+    "fecha": "2026-09-11T00:50:49.026Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro ajustó el inventario teórico de \"SOBRE CARTA\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789087817279.3572,
+    "fecha": "2026-09-11T00:50:17.279Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro ajustó el inventario teórico de \"PLUMA ROJA\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789087812881.0562,
+    "fecha": "2026-09-11T00:50:12.881Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro ajustó el inventario teórico de \"PLUMA AZUL\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789087810830.7102,
+    "fecha": "2026-09-11T00:50:10.830Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro ajustó el inventario teórico de \"PLUMA ROJA\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789087806943.6816,
+    "fecha": "2026-09-11T00:50:06.943Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro ajustó el inventario teórico de \"PLUMA AZUL\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789087802749.7017,
+    "fecha": "2026-09-11T00:50:02.749Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro ajustó el inventario teórico de \"PLUMA NEGRA\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789087715797.7827,
+    "fecha": "2026-09-11T00:48:35.797Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro auditó la sucursal LINCOLN OXXO (2026-09-10)"
+  },
+  {
+    "id": 1789087713954.5037,
+    "fecha": "2026-09-11T00:48:33.954Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "INSURGENTES",
+    "turno": null,
+    "mensaje": "Alessandro auditó la sucursal INSURGENTES (2026-09-10)"
+  },
+  {
+    "id": 1789087702604.363,
+    "fecha": "2026-09-11T00:48:22.604Z",
+    "rol": "colaborador",
+    "actor": "DAMARI MARTINEZ",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T2",
+    "mensaje": "DAMARI MARTINEZ (T2 - LINCOLN OXXO) completó Conteo de Novedades"
+  },
+  {
+    "id": 1789087682161.4692,
+    "fecha": "2026-09-11T00:48:02.161Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-10)"
+  },
+  {
+    "id": 1789087629080.176,
+    "fecha": "2026-09-11T00:47:09.080Z",
+    "rol": "colaborador",
+    "actor": "DAMARI MARTINEZ",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T2",
+    "mensaje": "DAMARI MARTINEZ (T2 - LINCOLN OXXO) completó Conteo de Snack"
+  },
+  {
+    "id": 1789087602764.4883,
+    "fecha": "2026-09-11T00:46:42.764Z",
+    "rol": "colaborador",
+    "actor": "DAMARI MARTINEZ",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T2",
+    "mensaje": "DAMARI MARTINEZ (T2 - LINCOLN OXXO) completó Conteo de Papelería"
+  },
+  {
+    "id": 1789087408813.9988,
+    "fecha": "2026-09-11T00:43:28.813Z",
+    "rol": "colaborador",
+    "actor": "DAMARI MARTINEZ",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T2",
+    "mensaje": "DAMARI MARTINEZ inició sesión (Turno T2 - LINCOLN OXXO)"
+  },
+  {
+    "id": 1789087168478.7615,
+    "fecha": "2026-09-11T00:39:28.478Z",
+    "rol": "colaborador",
+    "actor": "Alessandro Salinas",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T1",
+    "mensaje": "Alessandro Salinas inició sesión (Turno T1 - LINCOLN OXXO)"
+  },
+  {
+    "id": 1789087116462.062,
+    "fecha": "2026-09-11T00:38:36.462Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro ajustó el inventario teórico de \"MICA OFICIO\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789087114010.6091,
+    "fecha": "2026-09-11T00:38:34.010Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro ajustó el inventario teórico de \"MICA CARTA\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789087106204.8442,
+    "fecha": "2026-09-11T00:38:26.204Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro ajustó el inventario teórico de \"PASTAS NEGRAS\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789087084101.5974,
+    "fecha": "2026-09-11T00:38:04.101Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro ajustó el inventario teórico de \"PASTAS NEGRAS\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789087082781.3506,
+    "fecha": "2026-09-11T00:38:02.781Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro ajustó el inventario teórico de \"MICA OFICIO\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789087076220.5618,
+    "fecha": "2026-09-11T00:37:56.220Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro ajustó el inventario teórico de \"MICA CARTA\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789087056446.407,
+    "fecha": "2026-09-11T00:37:36.446Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro ajustó el inventario teórico de \"TABLOIDE OPALINA\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789087054102.9756,
+    "fecha": "2026-09-11T00:37:34.102Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro ajustó el inventario teórico de \"TABLOIDE ADHESIVO\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789087008194.5151,
+    "fecha": "2026-09-11T00:36:48.194Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro auditó la sucursal LINCOLN OXXO (2026-09-10)"
+  },
+  {
+    "id": 1789087003167.3772,
+    "fecha": "2026-09-11T00:36:43.167Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "INSURGENTES",
+    "turno": null,
+    "mensaje": "Alessandro auditó la sucursal INSURGENTES (2026-09-10)"
+  },
+  {
+    "id": 1789087002788.9016,
+    "fecha": "2026-09-11T00:36:42.788Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Alessandro (lider) inició sesión en el panel"
+  },
+  {
+    "id": 1789086992366.5103,
+    "fecha": "2026-09-11T00:36:32.366Z",
+    "rol": "colaborador",
+    "actor": "Nadia Bulnes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T1",
+    "mensaje": "Nadia Bulnes registró el Corte de Caja del turno T1 en LINCOLN OXXO"
+  },
+  {
+    "id": 1789086876761.4465,
+    "fecha": "2026-09-11T00:34:36.761Z",
+    "rol": "colaborador",
+    "actor": "Nadia Bulnes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T1",
+    "mensaje": "Turno T1 cerrado en LINCOLN OXXO por Nadia Bulnes"
+  },
+  {
+    "id": 1789086678501.4448,
+    "fecha": "2026-09-11T00:31:18.501Z",
+    "rol": "colaborador",
+    "actor": "Nadia Bulnes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T1",
+    "mensaje": "Nadia Bulnes (T1 - LINCOLN OXXO) completó Conteo de Novedades"
+  },
+  {
+    "id": 1789086655674.0496,
+    "fecha": "2026-09-11T00:30:55.674Z",
+    "rol": "colaborador",
+    "actor": "Nadia Bulnes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T1",
+    "mensaje": "Nadia Bulnes (T1 - LINCOLN OXXO) completó Conteo de Snack"
+  },
+  {
+    "id": 1789086597201.896,
+    "fecha": "2026-09-11T00:29:57.201Z",
+    "rol": "colaborador",
+    "actor": "Nadia Bulnes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T1",
+    "mensaje": "Nadia Bulnes (T1 - LINCOLN OXXO) completó Conteo de Papelería"
+  },
+  {
+    "id": 1789086584416.2017,
+    "fecha": "2026-09-11T00:29:44.416Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-10)"
+  },
+  {
+    "id": 1789086584272.0178,
+    "fecha": "2026-09-11T00:29:44.272Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-01)"
+  },
+  {
+    "id": 1789086547447.4814,
+    "fecha": "2026-09-11T00:29:07.447Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T3",
+    "mensaje": "Tanya Luna corrigió la fecha del turno T3 de LINCOLN OXXO (2026-09-08 → 2026-09-09)"
+  },
+  {
+    "id": 1789086541835.3516,
+    "fecha": "2026-09-11T00:29:01.835Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-08)"
+  },
+  {
+    "id": 1789086541632.975,
+    "fecha": "2026-09-11T00:29:01.632Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-10)"
+  },
+  {
+    "id": 1789086539069.2798,
+    "fecha": "2026-09-11T00:28:59.069Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-09)"
+  },
+  {
+    "id": 1789086538953.1619,
+    "fecha": "2026-09-11T00:28:58.953Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-10)"
+  },
+  {
+    "id": 1789086536787.9302,
+    "fecha": "2026-09-11T00:28:56.787Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-10)"
+  },
+  {
+    "id": 1789086532161.842,
+    "fecha": "2026-09-11T00:28:52.161Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-08)"
+  },
+  {
+    "id": 1789086531954.213,
+    "fecha": "2026-09-11T00:28:51.954Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-10)"
+  },
+  {
+    "id": 1789086523220.6743,
+    "fecha": "2026-09-11T00:28:43.220Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T3",
+    "mensaje": "Tanya Luna corrigió la fecha del turno T3 de LINCOLN OXXO (2026-09-09 → 2026-09-08)"
+  },
+  {
+    "id": 1789086460065.298,
+    "fecha": "2026-09-11T00:27:40.065Z",
+    "rol": "colaborador",
+    "actor": "Nadia Bulnes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T1",
+    "mensaje": "Nadia Bulnes inició sesión (Turno T1 - LINCOLN OXXO)"
+  },
+  {
+    "id": 1789086392984.2012,
+    "fecha": "2026-09-11T00:26:32.984Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "INSURGENTES",
+    "turno": null,
+    "mensaje": "Alessandro auditó la sucursal INSURGENTES (2026-09-10)"
+  },
+  {
+    "id": 1789086391657.3726,
+    "fecha": "2026-09-11T00:26:31.657Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Alessandro (lider) inició sesión en el panel"
+  },
+  {
+    "id": 1789086357376.5547,
+    "fecha": "2026-09-11T00:25:57.376Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-09)"
+  },
+  {
+    "id": 1789086357158.0317,
+    "fecha": "2026-09-11T00:25:57.158Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-10)"
+  },
+  {
+    "id": 1789086335566.3264,
+    "fecha": "2026-09-11T00:25:35.566Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-10)"
+  },
+  {
+    "id": 1789086335330.1387,
+    "fecha": "2026-09-11T00:25:35.330Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-01)"
+  },
+  {
+    "id": 1789086246446.9727,
+    "fecha": "2026-09-11T00:24:06.446Z",
+    "rol": "colaborador",
+    "actor": "Nadia Bulnes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T1",
+    "mensaje": "Nadia Bulnes inició sesión (Turno T1 - LINCOLN OXXO)"
+  },
+  {
+    "id": 1789086238056.84,
+    "fecha": "2026-09-11T00:23:58.056Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-09)"
+  },
+  {
+    "id": 1789086237887.4824,
+    "fecha": "2026-09-11T00:23:57.887Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-10)"
+  },
+  {
+    "id": 1789086224663.259,
+    "fecha": "2026-09-11T00:23:44.663Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-10)"
+  },
+  {
+    "id": 1789086220644.2732,
+    "fecha": "2026-09-11T00:23:40.644Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro auditó la sucursal LINCOLN OXXO (2026-09-10)"
+  },
+  {
+    "id": 1789086214360.1802,
+    "fecha": "2026-09-11T00:23:34.360Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "INSURGENTES",
+    "turno": null,
+    "mensaje": "Alessandro auditó la sucursal INSURGENTES (2026-09-10)"
+  },
+  {
+    "id": 1789086213388.7815,
+    "fecha": "2026-09-11T00:23:33.388Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Alessandro (lider) inició sesión en el panel"
+  },
+  {
+    "id": 1789086212647.6367,
+    "fecha": "2026-09-11T00:23:32.648Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "RODAS",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal RODAS (2026-09-10)"
+  },
+  {
+    "id": 1789086202221.672,
+    "fecha": "2026-09-11T00:23:22.221Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal 2 DE ABRIL (2026-09-10)"
+  },
+  {
+    "id": 1789086202091.2996,
+    "fecha": "2026-09-11T00:23:22.091Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Tanya Luna (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789086128820.7822,
+    "fecha": "2026-09-11T00:22:08.820Z",
+    "rol": "colaborador",
+    "actor": "Alessandro Salinas",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T1",
+    "mensaje": "Alessandro Salinas inició sesión (Turno T1 - LINCOLN OXXO)"
+  },
+  {
+    "id": 1789085604278.6086,
+    "fecha": "2026-09-11T00:13:24.278Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-10)"
+  },
+  {
+    "id": 1789085402377.228,
+    "fecha": "2026-09-11T00:10:02.377Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-10)"
+  },
+  {
+    "id": 1789085382864.838,
+    "fecha": "2026-09-11T00:09:42.864Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes registró una entrada a bodega en 2 DE ABRIL"
+  },
+  {
+    "id": 1789085372654.618,
+    "fecha": "2026-09-11T00:09:32.654Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-10)"
+  },
+  {
+    "id": 1789085372576.9333,
+    "fecha": "2026-09-11T00:09:32.576Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Cesar Cortes (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789085343563.8037,
+    "fecha": "2026-09-11T00:09:03.563Z",
+    "rol": "colaborador",
+    "actor": "CESAR AMAYA",
+    "sucursal": "2 DE ABRIL",
+    "turno": "T1",
+    "mensaje": "CESAR AMAYA inició sesión (Turno T1 - 2 DE ABRIL)"
+  },
+  {
+    "id": 1789084360578.7039,
+    "fecha": "2026-09-10T23:52:40.578Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-09)"
+  },
+  {
+    "id": 1789084360224.6377,
+    "fecha": "2026-09-10T23:52:40.224Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-10)"
+  },
+  {
+    "id": 1789084343231.412,
+    "fecha": "2026-09-10T23:52:23.231Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-10)"
+  },
+  {
+    "id": 1789084343008.3171,
+    "fecha": "2026-09-10T23:52:23.008Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-01)"
+  },
+  {
+    "id": 1789084279310.062,
+    "fecha": "2026-09-10T23:51:19.310Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-07)"
+  },
+  {
+    "id": 1789084274574.0166,
+    "fecha": "2026-09-10T23:51:14.574Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-07)"
+  },
+  {
+    "id": 1789084274403.4285,
+    "fecha": "2026-09-10T23:51:14.403Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-10)"
+  },
+  {
+    "id": 1789078595969.4602,
+    "fecha": "2026-09-10T22:16:35.969Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-09)"
+  },
+  {
+    "id": 1789078595443.2224,
+    "fecha": "2026-09-10T22:16:35.443Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-10)"
+  },
+  {
+    "id": 1789078593507.176,
+    "fecha": "2026-09-10T22:16:33.507Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-08)"
+  },
+  {
+    "id": 1789078536236.3276,
+    "fecha": "2026-09-10T22:15:36.236Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T2",
+    "mensaje": "Tanya Luna eliminó un turno (T2) de LINCOLN OXXO"
+  },
+  {
+    "id": 1789078534354.5017,
+    "fecha": "2026-09-10T22:15:34.354Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T1",
+    "mensaje": "Tanya Luna eliminó un turno (T1) de LINCOLN OXXO"
+  },
+  {
+    "id": 1789078529424.727,
+    "fecha": "2026-09-10T22:15:29.424Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T3",
+    "mensaje": "Tanya Luna eliminó un turno (T3) de LINCOLN OXXO"
+  },
+  {
+    "id": 1789078401805.5405,
+    "fecha": "2026-09-10T22:13:21.805Z",
+    "rol": "colaborador",
+    "actor": "Nadia Bulnes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T1",
+    "mensaje": "Nadia Bulnes inició sesión (Turno T1 - LINCOLN OXXO)"
+  },
+  {
+    "id": 1789078381583.323,
+    "fecha": "2026-09-10T22:13:01.583Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro auditó la sucursal LINCOLN OXXO (2026-09-10)"
+  },
+  {
+    "id": 1789078381542.064,
+    "fecha": "2026-09-10T22:13:01.542Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro auditó la sucursal LINCOLN OXXO (2026-09-01)"
+  },
+  {
+    "id": 1789078206208.8044,
+    "fecha": "2026-09-10T22:10:06.208Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro auditó la sucursal LINCOLN OXXO (2026-09-09)"
+  },
+  {
+    "id": 1789078204467.6921,
+    "fecha": "2026-09-10T22:10:04.467Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro auditó la sucursal LINCOLN OXXO (2026-09-10)"
+  },
+  {
+    "id": 1789078199960.2058,
+    "fecha": "2026-09-10T22:09:59.960Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "INSURGENTES",
+    "turno": null,
+    "mensaje": "Alessandro auditó la sucursal INSURGENTES (2026-09-10)"
+  },
+  {
+    "id": 1789078182896.7393,
+    "fecha": "2026-09-10T22:09:42.896Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T3",
+    "mensaje": "Alessandro corrigió contadores en LINCOLN OXXO (turno T3)"
+  },
+  {
+    "id": 1789078114102.0828,
+    "fecha": "2026-09-10T22:08:34.102Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-09)"
+  },
+  {
+    "id": 1789078113864.9583,
+    "fecha": "2026-09-10T22:08:33.864Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-10)"
+  },
+  {
+    "id": 1789078112077.2104,
+    "fecha": "2026-09-10T22:08:32.077Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-08)"
+  },
+  {
+    "id": 1789078111927.8425,
+    "fecha": "2026-09-10T22:08:31.927Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-10)"
+  },
+  {
+    "id": 1789078092718.962,
+    "fecha": "2026-09-10T22:08:12.718Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "RODAS",
+    "turno": "T3",
+    "mensaje": "Tanya Luna eliminó un turno (T3) de RODAS"
+  },
+  {
+    "id": 1789078088033.1956,
+    "fecha": "2026-09-10T22:08:08.033Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "RODAS",
+    "turno": "T2",
+    "mensaje": "Tanya Luna eliminó un turno (T2) de RODAS"
+  },
+  {
+    "id": 1789078083651.848,
+    "fecha": "2026-09-10T22:08:03.651Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "RODAS",
+    "turno": "T1",
+    "mensaje": "Tanya Luna eliminó un turno (T1) de RODAS"
+  },
+  {
+    "id": 1789078081444.456,
+    "fecha": "2026-09-10T22:08:01.444Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "RODAS",
+    "turno": "T3",
+    "mensaje": "Tanya Luna eliminó un turno (T3) de RODAS"
+  },
+  {
+    "id": 1789078072667.0244,
+    "fecha": "2026-09-10T22:07:52.667Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN 2",
+    "turno": "T1",
+    "mensaje": "Tanya Luna eliminó un turno (T1) de LINCOLN 2"
+  },
+  {
+    "id": 1789077900317.7034,
+    "fecha": "2026-09-10T22:05:00.317Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-09)"
+  },
+  {
+    "id": 1789077900174.7812,
+    "fecha": "2026-09-10T22:05:00.174Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-10)"
+  },
+  {
+    "id": 1789077898003.0007,
+    "fecha": "2026-09-10T22:04:58.003Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro auditó la sucursal LINCOLN OXXO (2026-09-09)"
+  },
+  {
+    "id": 1789077893888.749,
+    "fecha": "2026-09-10T22:04:53.888Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-10)"
+  },
+  {
+    "id": 1789077893780.6963,
+    "fecha": "2026-09-10T22:04:53.780Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-01)"
+  },
+  {
+    "id": 1789077871906.7178,
+    "fecha": "2026-09-10T22:04:31.906Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro auditó la sucursal LINCOLN OXXO (2026-09-10)"
+  },
+  {
+    "id": 1789077837792.5117,
+    "fecha": "2026-09-10T22:03:57.792Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T3",
+    "mensaje": "Alessandro corrigió contadores en LINCOLN OXXO (turno T3)"
+  },
+  {
+    "id": 1789077612365.8975,
+    "fecha": "2026-09-10T22:00:12.365Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-09)"
+  },
+  {
+    "id": 1789077612244.0586,
+    "fecha": "2026-09-10T22:00:12.244Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-10)"
+  },
+  {
+    "id": 1789077604575.335,
+    "fecha": "2026-09-10T22:00:04.575Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-10)"
+  },
+  {
+    "id": 1789077604325.0007,
+    "fecha": "2026-09-10T22:00:04.325Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-01)"
+  },
+  {
+    "id": 1789077541491.8845,
+    "fecha": "2026-09-10T21:59:01.491Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-09)"
+  },
+  {
+    "id": 1789077541236.9211,
+    "fecha": "2026-09-10T21:59:01.236Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-10)"
+  },
+  {
+    "id": 1789077515480.4905,
+    "fecha": "2026-09-10T21:58:35.480Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T3",
+    "mensaje": "Tanya Luna corrigió la fecha del turno T3 de LINCOLN OXXO (2026-09-10 → 2026-09-09)"
+  },
+  {
+    "id": 1789077492208.9993,
+    "fecha": "2026-09-10T21:58:12.208Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-08)"
+  },
+  {
+    "id": 1789077492046.3357,
+    "fecha": "2026-09-10T21:58:12.046Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-10)"
+  },
+  {
+    "id": 1789077480957.3367,
+    "fecha": "2026-09-10T21:58:00.957Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-09)"
+  },
+  {
+    "id": 1789077480791.8713,
+    "fecha": "2026-09-10T21:58:00.791Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-10)"
+  },
+  {
+    "id": 1789077475793.6082,
+    "fecha": "2026-09-10T21:57:55.793Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-10)"
+  },
+  {
+    "id": 1789077450948.9895,
+    "fecha": "2026-09-10T21:57:30.948Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal 2 DE ABRIL (2026-09-10)"
+  },
+  {
+    "id": 1789077406449.0605,
+    "fecha": "2026-09-10T21:56:46.449Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-09)"
+  },
+  {
+    "id": 1789077406318.9043,
+    "fecha": "2026-09-10T21:56:46.318Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-10)"
+  },
+  {
+    "id": 1789077311659.0034,
+    "fecha": "2026-09-10T21:55:11.659Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T3",
+    "mensaje": "Alessandro corrigió contadores en LINCOLN OXXO (turno T3)"
+  },
+  {
+    "id": 1789077224788.115,
+    "fecha": "2026-09-10T21:53:44.788Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-10)"
+  },
+  {
+    "id": 1789077215618.6396,
+    "fecha": "2026-09-10T21:53:35.618Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal 2 DE ABRIL (2026-09-10)"
+  },
+  {
+    "id": 1789077179568.2385,
+    "fecha": "2026-09-10T21:52:59.568Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal 2 DE ABRIL (2026-09-10)"
+  },
+  {
+    "id": 1789077151322.2188,
+    "fecha": "2026-09-10T21:52:31.322Z",
+    "rol": "colaborador",
+    "actor": "Angel Gallegos",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T3",
+    "mensaje": "Angel Gallegos registró el Corte de Caja del turno T3 en LINCOLN OXXO"
+  },
+  {
+    "id": 1789077063646.5796,
+    "fecha": "2026-09-10T21:51:03.646Z",
+    "rol": "colaborador",
+    "actor": "Angel Gallegos",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T3",
+    "mensaje": "Turno T3 cerrado en LINCOLN OXXO por Angel Gallegos"
+  },
+  {
+    "id": 1789076815186.075,
+    "fecha": "2026-09-10T21:46:55.186Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-10)"
+  },
+  {
+    "id": 1789076776092.6562,
+    "fecha": "2026-09-10T21:46:16.093Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-10)"
+  },
+  {
+    "id": 1789076530152.3528,
+    "fecha": "2026-09-10T21:42:10.152Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "INSURGENTES",
+    "turno": null,
+    "mensaje": "Alessandro auditó la sucursal INSURGENTES (2026-09-10)"
+  },
+  {
+    "id": 1789076528859.753,
+    "fecha": "2026-09-10T21:42:08.859Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-10)"
+  },
+  {
+    "id": 1789076492558.7139,
+    "fecha": "2026-09-10T21:41:32.558Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-10)"
+  },
+  {
+    "id": 1789075975432.9744,
+    "fecha": "2026-09-10T21:32:55.432Z",
+    "rol": "colaborador",
+    "actor": "Angel Gallegos",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T3",
+    "mensaje": "Angel Gallegos (T3 - LINCOLN OXXO) completó Conteo de Novedades"
+  },
+  {
+    "id": 1789075858239.8545,
+    "fecha": "2026-09-10T21:30:58.239Z",
+    "rol": "colaborador",
+    "actor": "Angel Gallegos",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T3",
+    "mensaje": "Angel Gallegos (T3 - LINCOLN OXXO) completó Conteo de Snack"
+  },
+  {
+    "id": 1789075746051.329,
+    "fecha": "2026-09-10T21:29:06.051Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-10)"
+  },
+  {
+    "id": 1789075739923.135,
+    "fecha": "2026-09-10T21:28:59.923Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T2",
+    "mensaje": "Cesar Cortes corrigió la fecha del turno T2 de LINCOLN OXXO (2026-09-10 → 2026-09-09)"
+  },
+  {
+    "id": 1789075738823.01,
+    "fecha": "2026-09-10T21:28:58.823Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T1",
+    "mensaje": "Cesar Cortes corrigió la fecha del turno T1 de LINCOLN OXXO (2026-09-10 → 2026-09-09)"
+  },
+  {
+    "id": 1789075707639.0059,
+    "fecha": "2026-09-10T21:28:27.639Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-10)"
+  },
+  {
+    "id": 1789075676895.1995,
+    "fecha": "2026-09-10T21:27:56.895Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-10)"
+  },
+  {
+    "id": 1789075540788.1575,
+    "fecha": "2026-09-10T21:25:40.788Z",
+    "rol": "colaborador",
+    "actor": "Angel Gallegos",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T3",
+    "mensaje": "Angel Gallegos (T3 - LINCOLN OXXO) completó Conteo de Papelería"
+  },
+  {
+    "id": 1789075234249.4202,
+    "fecha": "2026-09-10T21:20:34.249Z",
+    "rol": "colaborador",
+    "actor": "DAMARI MARTINEZ",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T2",
+    "mensaje": "DAMARI MARTINEZ registró el Corte de Caja del turno T2 en LINCOLN OXXO"
+  },
+  {
+    "id": 1789075175421.1116,
+    "fecha": "2026-09-10T21:19:35.421Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-10)"
+  },
+  {
+    "id": 1789075047098.272,
+    "fecha": "2026-09-10T21:17:27.098Z",
+    "rol": "colaborador",
+    "actor": "DAMARI MARTINEZ",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T2",
+    "mensaje": "Turno T2 cerrado en LINCOLN OXXO por DAMARI MARTINEZ"
+  },
+  {
+    "id": 1789074913998.5027,
+    "fecha": "2026-09-10T21:15:13.998Z",
+    "rol": "colaborador",
+    "actor": "CESAR AMAYA",
+    "sucursal": "LINCOLN 2",
+    "turno": "T1",
+    "mensaje": "CESAR AMAYA inició sesión (Turno T1 - LINCOLN 2)"
+  },
+  {
+    "id": 1789074838915.0503,
+    "fecha": "2026-09-10T21:13:58.915Z",
+    "rol": "colaborador",
+    "actor": "Angel Gallegos",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T3",
+    "mensaje": "Angel Gallegos inició sesión (Turno T3 - LINCOLN OXXO)"
+  },
+  {
+    "id": 1789074796391.804,
+    "fecha": "2026-09-10T21:13:16.391Z",
+    "rol": "colaborador",
+    "actor": "DAMARI MARTINEZ",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T2",
+    "mensaje": "DAMARI MARTINEZ (T2 - LINCOLN OXXO) completó Conteo de Novedades"
+  },
+  {
+    "id": 1789074759225.3186,
+    "fecha": "2026-09-10T21:12:39.225Z",
+    "rol": "colaborador",
+    "actor": "DAMARI MARTINEZ",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T2",
+    "mensaje": "DAMARI MARTINEZ (T2 - LINCOLN OXXO) completó Conteo de Snack"
+  },
+  {
+    "id": 1789074662370.5625,
+    "fecha": "2026-09-10T21:11:02.370Z",
+    "rol": "colaborador",
+    "actor": "DAMARI MARTINEZ",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T2",
+    "mensaje": "DAMARI MARTINEZ (T2 - LINCOLN OXXO) completó Conteo de Papelería"
+  },
+  {
+    "id": 1789074333836.9507,
+    "fecha": "2026-09-10T21:05:33.836Z",
+    "rol": "colaborador",
+    "actor": "DAMARI MARTINEZ",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T2",
+    "mensaje": "DAMARI MARTINEZ inició sesión (Turno T2 - LINCOLN OXXO)"
+  },
+  {
+    "id": 1789074326973.4768,
+    "fecha": "2026-09-10T21:05:26.973Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "RODAS",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal RODAS (2026-09-07)"
+  },
+  {
+    "id": 1789074326804.6128,
+    "fecha": "2026-09-10T21:05:26.804Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "RODAS",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal RODAS (2026-09-10)"
+  },
+  {
+    "id": 1789074323930.1892,
+    "fecha": "2026-09-10T21:05:23.930Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "RODAS",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal RODAS (2026-09-10)"
+  },
+  {
+    "id": 1789074303229.669,
+    "fecha": "2026-09-10T21:05:03.229Z",
+    "rol": "colaborador",
+    "actor": "Nadia Bulnes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T1",
+    "mensaje": "Nadia Bulnes registró el Corte de Caja del turno T1 en LINCOLN OXXO"
+  },
+  {
+    "id": 1789074286316.005,
+    "fecha": "2026-09-10T21:04:46.316Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal 2 DE ABRIL (2026-09-10)"
+  },
+  {
+    "id": 1789074074983.0715,
+    "fecha": "2026-09-10T21:01:14.983Z",
+    "rol": "colaborador",
+    "actor": "Nadia Bulnes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T1",
+    "mensaje": "Turno T1 cerrado en LINCOLN OXXO por Nadia Bulnes"
+  },
+  {
+    "id": 1789073972305.9636,
+    "fecha": "2026-09-10T20:59:32.305Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-10)"
+  },
+  {
+    "id": 1789073789482.9028,
+    "fecha": "2026-09-10T20:56:29.482Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-10)"
+  },
+  {
+    "id": 1789073772165.3774,
+    "fecha": "2026-09-10T20:56:12.165Z",
+    "rol": "colaborador",
+    "actor": "Nadia Bulnes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T1",
+    "mensaje": "Nadia Bulnes (T1 - LINCOLN OXXO) completó Conteo de Novedades"
+  },
+  {
+    "id": 1789073744411.758,
+    "fecha": "2026-09-10T20:55:44.411Z",
+    "rol": "colaborador",
+    "actor": "Nadia Bulnes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T1",
+    "mensaje": "Nadia Bulnes (T1 - LINCOLN OXXO) completó Conteo de Snack"
+  },
+  {
+    "id": 1789073678481.521,
+    "fecha": "2026-09-10T20:54:38.481Z",
+    "rol": "colaborador",
+    "actor": "Nadia Bulnes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T1",
+    "mensaje": "Nadia Bulnes (T1 - LINCOLN OXXO) completó Conteo de Papelería"
+  },
+  {
+    "id": 1789073656393.218,
+    "fecha": "2026-09-10T20:54:16.393Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "RODAS",
+    "turno": null,
+    "mensaje": "Cesar Cortes ajustó el inventario teórico de \"TABLOIDE ADHESIVO\" en RODAS"
+  },
+  {
+    "id": 1789073649445.5598,
+    "fecha": "2026-09-10T20:54:09.445Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "RODAS",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal RODAS (2026-09-07)"
+  },
+  {
+    "id": 1789073649280.485,
+    "fecha": "2026-09-10T20:54:09.280Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "RODAS",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal RODAS (2026-09-10)"
+  },
+  {
+    "id": 1789073646732.4668,
+    "fecha": "2026-09-10T20:54:06.732Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "RODAS",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal RODAS (2026-09-10)"
+  },
+  {
+    "id": 1789073573651.416,
+    "fecha": "2026-09-10T20:52:53.651Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Cesar Cortes actualizó su foto de perfil"
+  },
+  {
+    "id": 1789073522358.5022,
+    "fecha": "2026-09-10T20:52:02.358Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-10)"
+  },
+  {
+    "id": 1789073520369.343,
+    "fecha": "2026-09-10T20:52:00.369Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T1",
+    "mensaje": "Alessandro eliminó un turno (T1) de LINCOLN OXXO"
+  },
+  {
+    "id": 1789073509209.2004,
+    "fecha": "2026-09-10T20:51:49.209Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T1",
+    "mensaje": "Alessandro eliminó un turno (T1) de LINCOLN OXXO"
+  },
+  {
+    "id": 1789073487017.6555,
+    "fecha": "2026-09-10T20:51:27.017Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "INSURGENTES",
+    "turno": null,
+    "mensaje": "Alessandro auditó la sucursal INSURGENTES (2026-09-10)"
+  },
+  {
+    "id": 1789073486774.9875,
+    "fecha": "2026-09-10T20:51:26.774Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Alessandro (lider) inició sesión en el panel"
+  },
+  {
+    "id": 1789073433065.0134,
+    "fecha": "2026-09-10T20:50:33.065Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "RODAS",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal RODAS (2026-09-07)"
+  },
+  {
+    "id": 1789073432914.2612,
+    "fecha": "2026-09-10T20:50:32.914Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "RODAS",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal RODAS (2026-09-10)"
+  },
+  {
+    "id": 1789073430832.867,
+    "fecha": "2026-09-10T20:50:30.832Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "RODAS",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal RODAS (2026-09-10)"
+  },
+  {
+    "id": 1789073354570.3423,
+    "fecha": "2026-09-10T20:49:14.570Z",
+    "rol": "colaborador",
+    "actor": "Nadia Bulnes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T1",
+    "mensaje": "Nadia Bulnes inició sesión (Turno T1 - LINCOLN OXXO)"
+  },
+  {
+    "id": 1789073354142.9346,
+    "fecha": "2026-09-10T20:49:14.142Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-10)"
+  },
+  {
+    "id": 1789073353910.7874,
+    "fecha": "2026-09-10T20:49:13.910Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Cesar Cortes (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789073346709.3147,
+    "fecha": "2026-09-10T20:49:06.709Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal 2 DE ABRIL (2026-09-10)"
+  },
+  {
+    "id": 1789073346634.9673,
+    "fecha": "2026-09-10T20:49:06.634Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Tanya Luna (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789073227091.5503,
+    "fecha": "2026-09-10T20:47:07.091Z",
+    "rol": "colaborador",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": "T1",
+    "mensaje": "Cesar Cortes inició sesión (Turno T1 - 2 DE ABRIL)"
+  },
+  {
+    "id": 1789073198607.8608,
+    "fecha": "2026-09-10T20:46:38.607Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "RODAS",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal RODAS (2026-09-07)"
+  },
+  {
+    "id": 1789073198477.1746,
+    "fecha": "2026-09-10T20:46:38.477Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "RODAS",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal RODAS (2026-09-10)"
+  },
+  {
+    "id": 1789073197059.577,
+    "fecha": "2026-09-10T20:46:37.059Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "RODAS",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal RODAS (2026-09-10)"
+  },
+  {
+    "id": 1789073169219.4158,
+    "fecha": "2026-09-10T20:46:09.219Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-10)"
+  },
+  {
+    "id": 1789073168931.6028,
+    "fecha": "2026-09-10T20:46:08.931Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Cesar Cortes (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789072841556.1313,
+    "fecha": "2026-09-10T20:40:41.556Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "INSURGENTES",
+    "turno": null,
+    "mensaje": "Alessandro registró una entrada a bodega en INSURGENTES"
+  },
+  {
+    "id": 1789072797663.4119,
+    "fecha": "2026-09-10T20:39:57.663Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal LINCOLN OXXO (2026-09-07)"
+  },
+  {
+    "id": 1789072762816.68,
+    "fecha": "2026-09-10T20:39:22.816Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro auditó la sucursal LINCOLN OXXO (2026-09-10)"
+  },
+  {
+    "id": 1789072756403.366,
+    "fecha": "2026-09-10T20:39:16.403Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "INSURGENTES",
+    "turno": null,
+    "mensaje": "Alessandro auditó la sucursal INSURGENTES (2026-09-10)"
+  },
+  {
+    "id": 1789072756142.7405,
+    "fecha": "2026-09-10T20:39:16.142Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Alessandro (lider) inició sesión en el panel"
+  },
+  {
+    "id": 1789072582189.6494,
+    "fecha": "2026-09-10T20:36:22.189Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "RODAS",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal RODAS (2026-09-07)"
+  },
+  {
+    "id": 1789072582049.2146,
+    "fecha": "2026-09-10T20:36:22.049Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "RODAS",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal RODAS (2026-09-10)"
+  },
+  {
+    "id": 1789072580235.723,
+    "fecha": "2026-09-10T20:36:20.235Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "RODAS",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal RODAS (2026-09-10)"
+  },
+  {
+    "id": 1789072506002.9004,
+    "fecha": "2026-09-10T20:35:06.002Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal 2 DE ABRIL (2026-09-10)"
+  },
+  {
+    "id": 1789072505905.4097,
+    "fecha": "2026-09-10T20:35:05.905Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Tanya Luna (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789072364533.9817,
+    "fecha": "2026-09-10T20:32:44.533Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "RODAS",
+    "turno": null,
+    "mensaje": "Cesar Cortes ajustó el inventario teórico de \"TABLOIDE ADHESIVO\" en RODAS"
+  },
+  {
+    "id": 1789072338191.5447,
+    "fecha": "2026-09-10T20:32:18.191Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "RODAS",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal RODAS (2026-09-07)"
+  },
+  {
+    "id": 1789072338036.9128,
+    "fecha": "2026-09-10T20:32:18.036Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "RODAS",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal RODAS (2026-09-10)"
+  },
+  {
+    "id": 1789072333837.3481,
+    "fecha": "2026-09-10T20:32:13.837Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "RODAS",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal RODAS (2026-09-10)"
+  },
+  {
+    "id": 1789072333682.1016,
+    "fecha": "2026-09-10T20:32:13.682Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "RODAS",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal RODAS (2026-09-01)"
+  },
+  {
+    "id": 1789072332184.0737,
+    "fecha": "2026-09-10T20:32:12.184Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "RODAS",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal RODAS (2026-09-07)"
+  },
+  {
+    "id": 1789072326744.005,
+    "fecha": "2026-09-10T20:32:06.744Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-07)"
+  },
+  {
+    "id": 1789072326575.4766,
+    "fecha": "2026-09-10T20:32:06.575Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-10)"
+  },
+  {
+    "id": 1789072325804.9795,
+    "fecha": "2026-09-10T20:32:05.804Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes ajustó el inventario teórico de \"TABLOIDE ADHESIVO\" en 2 DE ABRIL"
+  },
+  {
+    "id": 1789072315261.688,
+    "fecha": "2026-09-10T20:31:55.261Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-10)"
+  },
+  {
+    "id": 1789072314228.241,
+    "fecha": "2026-09-10T20:31:54.228Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Cesar Cortes (admin) inició sesión en el panel"
+  },
+  {
+    "id": 1789070282860.403,
+    "fecha": "2026-09-10T19:58:02.860Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro auditó la sucursal LINCOLN OXXO (2026-09-10)"
+  },
+  {
+    "id": 1789070272919.2395,
+    "fecha": "2026-09-10T19:57:52.919Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "INSURGENTES",
+    "turno": null,
+    "mensaje": "Alessandro auditó la sucursal INSURGENTES (2026-09-10)"
+  },
+  {
+    "id": 1789070260653.561,
+    "fecha": "2026-09-10T19:57:40.653Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro registró una entrada a bodega en LINCOLN OXXO"
+  },
+  {
+    "id": 1789069777542.9075,
+    "fecha": "2026-09-10T19:49:37.542Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Alessandro auditó la sucursal LINCOLN OXXO (2026-09-10)"
+  },
+  {
+    "id": 1789069713938.6558,
+    "fecha": "2026-09-10T19:48:33.938Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T1",
+    "mensaje": "Alessandro corrigió contadores en LINCOLN OXXO (turno T1)"
+  },
+  {
+    "id": 1789069683887.8948,
+    "fecha": "2026-09-10T19:48:03.887Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "INSURGENTES",
+    "turno": null,
+    "mensaje": "Alessandro auditó la sucursal INSURGENTES (2026-09-10)"
+  },
+  {
+    "id": 1789069683684.2258,
+    "fecha": "2026-09-10T19:48:03.684Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": null,
+    "turno": null,
+    "mensaje": "Alessandro (lider) inició sesión en el panel"
+  },
+  {
+    "id": 1789069557454.4229,
+    "fecha": "2026-09-10T19:45:57.454Z",
+    "rol": "colaborador",
+    "actor": "Nadia Bulnes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T1",
+    "mensaje": "Nadia Bulnes (T1 - LINCOLN OXXO) completó Conteo de Papelería"
+  },
+  {
+    "id": 1789069342618.5942,
+    "fecha": "2026-09-10T19:42:22.618Z",
+    "rol": "colaborador",
+    "actor": "Nadia Bulnes",
+    "sucursal": "LINCOLN OXXO",
+    "turno": "T1",
+    "mensaje": "Nadia Bulnes inició sesión (Turno T1 - LINCOLN OXXO)"
+  },
+  {
+    "id": 1789069320067.289,
+    "fecha": "2026-09-10T19:42:00.067Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-10)"
+  },
+  {
+    "id": 1789069319969.1323,
+    "fecha": "2026-09-10T19:41:59.969Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-01)"
+  },
+  {
+    "id": 1789069309853.7214,
+    "fecha": "2026-09-10T19:41:49.853Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-08)"
+  },
+  {
+    "id": 1789069309675.1387,
+    "fecha": "2026-09-10T19:41:49.675Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-10)"
+  },
+  {
+    "id": 1789069305943.9556,
+    "fecha": "2026-09-10T19:41:45.943Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-10)"
+  },
+  {
+    "id": 1789069305778.9446,
+    "fecha": "2026-09-10T19:41:45.778Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-01)"
+  },
+  {
+    "id": 1789069288442.656,
+    "fecha": "2026-09-10T19:41:28.442Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-09)"
+  },
+  {
+    "id": 1789069288198.3484,
+    "fecha": "2026-09-10T19:41:28.198Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-10)"
+  },
+  {
+    "id": 1789069150219.0369,
+    "fecha": "2026-09-10T19:39:10.219Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna ajustó el inventario teórico de \"NOVEDADES VERDE\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789069134106.0337,
+    "fecha": "2026-09-10T19:38:54.106Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna ajustó el inventario teórico de \"NOVEDADES ROSA\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789069125690.9744,
+    "fecha": "2026-09-10T19:38:45.690Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna ajustó el inventario teórico de \"NOVEDADES ROJO\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789069108381.503,
+    "fecha": "2026-09-10T19:38:28.381Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna ajustó el inventario teórico de \"NOVEDADES PLATEADA\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789069100961.2825,
+    "fecha": "2026-09-10T19:38:20.961Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna ajustó el inventario teórico de \"NOVEDADES MORADO\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789069091637.5361,
+    "fecha": "2026-09-10T19:38:11.637Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna ajustó el inventario teórico de \"NOVEDADES DORADA\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789069081058.034,
+    "fecha": "2026-09-10T19:38:01.058Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna ajustó el inventario teórico de \"NOVEDADES AZUL\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789069026790.2021,
+    "fecha": "2026-09-10T19:37:06.790Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna ajustó el inventario teórico de \"CHICLES VARIOS\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789069019939.7383,
+    "fecha": "2026-09-10T19:36:59.939Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna ajustó el inventario teórico de \"SKWINKLES VARIOS\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789069006185.9414,
+    "fecha": "2026-09-10T19:36:46.185Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna ajustó el inventario teórico de \"SABRITAS VARIOS\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789068967402.3071,
+    "fecha": "2026-09-10T19:36:07.402Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna ajustó el inventario teórico de \"PALETA PAYASO\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789068959427.277,
+    "fecha": "2026-09-10T19:35:59.427Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna ajustó el inventario teórico de \"MAZAPAN AZTECA\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789068937196.1238,
+    "fecha": "2026-09-10T19:35:37.196Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna ajustó el inventario teórico de \"GALLETA VARIOS\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789068928053.7654,
+    "fecha": "2026-09-10T19:35:28.053Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna ajustó el inventario teórico de \"FRUTSI VARIOS\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789068901766.37,
+    "fecha": "2026-09-10T19:35:01.766Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna ajustó el inventario teórico de \"COCA COLA\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789068830015.8538,
+    "fecha": "2026-09-10T19:33:50.015Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna ajustó el inventario teórico de \"CHOCOLATES VARIOS\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789068818719.0166,
+    "fecha": "2026-09-10T19:33:38.719Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna ajustó el inventario teórico de \"DULCES VARIOS\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789068782479.3835,
+    "fecha": "2026-09-10T19:33:02.479Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna ajustó el inventario teórico de \"AGUA\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789068628171.9731,
+    "fecha": "2026-09-10T19:30:28.171Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna ajustó el inventario teórico de \"SOLICITUD DE EMPLEO\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789068613055.3357,
+    "fecha": "2026-09-10T19:30:13.055Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna ajustó el inventario teórico de \"PLUMA ROJA\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789068610827.9333,
+    "fecha": "2026-09-10T19:30:10.827Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna ajustó el inventario teórico de \"PLUMA AZUL\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789068602533.1094,
+    "fecha": "2026-09-10T19:30:02.533Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna ajustó el inventario teórico de \"PLUMA NEGRA\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789068587434.5847,
+    "fecha": "2026-09-10T19:29:47.434Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna ajustó el inventario teórico de \"DVD-R SONY\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789068583218.6936,
+    "fecha": "2026-09-10T19:29:43.218Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna ajustó el inventario teórico de \"CD-R SONY\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789068498892.3103,
+    "fecha": "2026-09-10T19:28:18.892Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna ajustó el inventario teórico de \"MICA CREDENCIAL\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789068484726.9658,
+    "fecha": "2026-09-10T19:28:04.726Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna ajustó el inventario teórico de \"MICA OFICIO\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789068479515.0134,
+    "fecha": "2026-09-10T19:27:59.515Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna ajustó el inventario teórico de \"MICA CARTA\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789068431645.3923,
+    "fecha": "2026-09-10T19:27:11.645Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna ajustó el inventario teórico de \"USBS\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789068424216.3533,
+    "fecha": "2026-09-10T19:27:04.216Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna ajustó el inventario teórico de \"CARTULINA\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789068385578.4414,
+    "fecha": "2026-09-10T19:26:25.578Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna ajustó el inventario teórico de \"LEGAJO COSTILLA\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789068379966.8267,
+    "fecha": "2026-09-10T19:26:19.966Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna ajustó el inventario teórico de \"LEGAJO COLOR\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789068365149.3408,
+    "fecha": "2026-09-10T19:26:05.149Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna ajustó el inventario teórico de \"LEGAJO OFICIO\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789068360269.347,
+    "fecha": "2026-09-10T19:26:00.269Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna ajustó el inventario teórico de \"LEGAJO CARTA\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789068318574.8523,
+    "fecha": "2026-09-10T19:25:18.574Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna ajustó el inventario teórico de \"HOJA CARTA (POR PAQUETE)\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789068281719.977,
+    "fecha": "2026-09-10T19:24:41.719Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna ajustó el inventario teórico de \"HOJA CARTA (POR PAQUETE)\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789068179596.722,
+    "fecha": "2026-09-10T19:22:59.596Z",
+    "rol": "colaborador",
+    "actor": "CESAR AMAYA",
+    "sucursal": "2 DE ABRIL",
+    "turno": "T1",
+    "mensaje": "CESAR AMAYA inició sesión (Turno T1 - 2 DE ABRIL)"
+  },
+  {
+    "id": 1789067374912.6292,
+    "fecha": "2026-09-10T19:09:34.912Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna ajustó el inventario teórico de \"HOJA OPALINA\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789067364829.8708,
+    "fecha": "2026-09-10T19:09:24.829Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna ajustó el inventario teórico de \"HOJA COUCHE\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789067359258.206,
+    "fecha": "2026-09-10T19:09:19.258Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna ajustó el inventario teórico de \"HOJA ADHESIVA\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789067285606.2495,
+    "fecha": "2026-09-10T19:08:05.606Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna ajustó el inventario teórico de \"HOJA DOBLE CARTA\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789067275644.8135,
+    "fecha": "2026-09-10T19:07:55.644Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna ajustó el inventario teórico de \"TABLOIDE COUCHE\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789067272984.5308,
+    "fecha": "2026-09-10T19:07:52.984Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna ajustó el inventario teórico de \"TABLOIDE OPALINA\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789067240099.7,
+    "fecha": "2026-09-10T19:07:20.099Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna ajustó el inventario teórico de \"TABLOIDE COUCHE\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789067230715.563,
+    "fecha": "2026-09-10T19:07:10.715Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna ajustó el inventario teórico de \"TABLOIDE ADHESIVO\" en LINCOLN OXXO"
+  },
+  {
+    "id": 1789067169486.2832,
+    "fecha": "2026-09-10T19:06:09.486Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "LINCOLN OXXO",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal LINCOLN OXXO (2026-09-10)"
+  },
+  {
+    "id": 1789067152845.907,
+    "fecha": "2026-09-10T19:05:52.845Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal 2 DE ABRIL (2026-09-10)"
+  },
+  {
+    "id": 1789066712228.809,
+    "fecha": "2026-09-10T18:58:32.228Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "2 DE ABRIL",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal 2 DE ABRIL (2026-09-10)"
+  },
+  {
+    "id": 1789066367996.273,
+    "fecha": "2026-09-10T18:52:47.996Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "RODAS",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal RODAS (2026-09-07)"
+  },
+  {
+    "id": 1789066367840.1838,
+    "fecha": "2026-09-10T18:52:47.840Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "RODAS",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal RODAS (2026-09-10)"
+  },
+  {
+    "id": 1789066365230.6445,
+    "fecha": "2026-09-10T18:52:45.230Z",
+    "rol": "admin",
+    "actor": "Cesar Cortes",
+    "sucursal": "RODAS",
+    "turno": null,
+    "mensaje": "Cesar Cortes auditó la sucursal RODAS (2026-09-10)"
+  },
+  {
+    "id": 1789065466864.1238,
+    "fecha": "2026-09-10T18:37:46.864Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "RODAS",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal RODAS (2026-09-07)"
+  },
+  {
+    "id": 1789065466322.3235,
+    "fecha": "2026-09-10T18:37:46.322Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "RODAS",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal RODAS (2026-09-10)"
+  },
+  {
+    "id": 1789064732058.5342,
+    "fecha": "2026-09-10T18:25:32.058Z",
+    "rol": "admin",
+    "actor": "Tanya Luna",
+    "sucursal": "RODAS",
+    "turno": null,
+    "mensaje": "Tanya Luna auditó la sucursal RODAS (2026-09-10)"
+  },
+  {
+    "id": 1789063924385.6716,
+    "fecha": "2026-09-10T18:12:04.385Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "RODAS",
+    "turno": "T1",
+    "mensaje": "Alessandro corrigió contadores en RODAS (turno T1)"
+  },
+  {
+    "id": 1789063865255.9436,
+    "fecha": "2026-09-10T18:11:05.255Z",
+    "rol": "lider",
+    "actor": "Alessandro",
+    "sucursal": "INSURGENTES",
+    "turno": null,
+    "mensaje": "Alessandro auditó la sucursal INSURGENTES (2026-09-10)"
+  }
+]

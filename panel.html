@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Panel de Líderes — i24h</title>
+<script>if(localStorage.getItem('dark')==='1')document.documentElement.classList.add('dark');</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+<link rel="stylesheet" href="/estilos.css">
+</head>
+<body>
+
+<!-- ============ LOGIN (sin sidebar, pantalla completa) ============ -->
+<div class="w" id="root-login">
+  <section id="pantalla-login" class="card card-acceso">
+    <h1><i class="ti ti-lock"></i> Acceso de Líderes</h1>
+    <p class="sub">Acceso exclusivo para el jefe de operaciones y líderes de sucursal.</p>
+    <form id="form-login">
+      <label>Nombre <input type="text" id="in-lider-nombre" placeholder="Ej. Tanya"></label>
+      <label>Contraseña <input type="password" id="in-lider-pass" required></label>
+      <button type="submit" class="btn-p">Entrar <i class="ti ti-arrow-right"></i></button>
+    </form>
+    <p class="msg-error" id="login-error"></p>
+  </section>
+</div>
+
+<!-- ============ APP SHELL: SIDEBAR + CONTENIDO ============ -->
+<div class="app-shell hidden" id="pantalla-panel">
+
+  <button class="sidebar-hamburguesa" id="btn-hamburguesa"><i class="ti ti-menu-2"></i></button>
+  <div class="sidebar-overlay hidden" id="sidebar-overlay"></div>
+
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <div class="logo">i24h</div>
+      <div class="logo-sub">Panel de Líderes</div>
+    </div>
+
+    <!-- "PANEL ADMINISTRATIVO" para admins, o la lista real de sucursales para cada líder -->
+    <div class="sidebar-contexto" id="sidebar-contexto"></div>
+
+    <nav class="sidebar-nav">
+      <div class="nav-seccion">
+        <span class="nav-titulo">OPERACIÓN DE PISO</span>
+        <button class="tab-btn activo" data-tab="tab-bodega"><i class="ti ti-package-import"></i> Entrada a Bodega</button>
+        <button class="tab-btn" data-tab="tab-contadores"><i class="ti ti-printer"></i> Revisión de Contadores</button>
+        <button class="tab-btn" data-tab="tab-inventario"><i class="ti ti-clipboard-check"></i> BITACORA + PISO, BODEGA Y SISTEMA</button>
+        <button class="tab-btn" data-tab="tab-comparaciones"><i class="ti ti-arrows-left-right"></i> Comparaciones</button>
+      </div>
+      <div class="nav-seccion">
+        <span class="nav-titulo">GESTIÓN</span>
+        <button class="tab-btn" data-tab="tab-historial"><i class="ti ti-history"></i> Gestión de Turnos</button>
+        <button class="tab-btn" data-tab="tab-inventarios"><i class="ti ti-clipboard-list"></i> Inventarios</button>
+        <button class="tab-btn" data-tab="tab-reportes"><i class="ti ti-tool"></i> Reportes de Sucursal</button>
+        <button class="tab-btn" data-tab="tab-tickets"><i class="ti ti-receipt"></i> Registro de tickets i24h</button>
+      </div>
+      <div class="nav-seccion admin-only hidden">
+        <span class="nav-titulo">ADMINISTRACIÓN</span>
+        <button class="tab-btn" data-tab="tab-personal"><i class="ti ti-users"></i> Gestión de Personal</button>
+        <button class="tab-btn" data-tab="tab-catalogos"><i class="ti ti-list-details"></i> Gestión de Catálogos</button>
+        <button class="tab-btn" data-tab="tab-monitoreo"><i class="ti ti-eye"></i> Monitoreo</button>
+      </div>
+    </nav>
+
+    <div class="sidebar-footer">
+      <a href="/index.html" class="sidebar-link"><i class="ti ti-arrow-left"></i> Interfaz de piso</a>
+      <button class="sidebar-link" id="toggle-btn"><i class="ti ti-moon" id="tico"></i> <span id="tlbl">Modo oscuro</span></button>
+      <div class="sidebar-usuario">
+        <div class="avatar-wrap" id="avatar-wrap">
+          <div class="avatar-circulo" id="avatar-inicial">?</div>
+          <img class="avatar-img hidden" id="avatar-img" alt="Foto de perfil">
+          <div class="avatar-menu hidden" id="avatar-menu">
+            <button class="avatar-menu-item" id="avatar-btn-agregar"><i class="ti ti-photo-plus"></i> Agregar imagen</button>
+            <button class="avatar-menu-item hidden" id="avatar-btn-cambiar"><i class="ti ti-photo-edit"></i> Cambiar imagen</button>
+            <button class="avatar-menu-item avatar-menu-item-rojo hidden" id="avatar-btn-eliminar"><i class="ti ti-trash"></i> Eliminar imagen</button>
+          </div>
+        </div>
+        <div class="sidebar-usuario-datos">
+          <div class="sidebar-usuario-nombre" id="lider-nombre-footer"></div>
+          <div class="sidebar-usuario-rol" id="lider-rol-footer"></div>
+        </div>
+      </div>
+      <input type="file" id="avatar-file-input" accept="image/jpeg,image/png,image/webp" class="hidden">
+      <button class="sidebar-link sidebar-salir" id="btn-salir-lider"><i class="ti ti-logout"></i> Cerrar sesión</button>
+    </div>
+  </aside>
+
+  <main class="main-content">
+    <h1 class="panel-titulo-sticky"><i class="ti ti-layout-dashboard"></i> Panel de Control i24h</h1>
+
+
+    <!-- ---------- ENTRADA A BODEGA ---------- -->
+    <div class="tab-panel" id="tab-bodega">
+      <div class="card">
+        <div class="floating-header compact-filter-bar">
+          <h2><i class="ti ti-package-import"></i> Entrada a Bodega</h2>
+          <div class="filtro-compacto" title="Sucursal">
+            <i class="ti ti-building-store"></i>
+            <select id="bodega-sucursal"></select>
+          </div>
+          <div class="filtro-compacto" title="Categoría">
+            <i class="ti ti-category"></i>
+            <select id="bodega-categoria">
+              <option value="papeleria">Papelería</option>
+              <option value="snack">Snack</option>
+              <option value="novedades">Novedades</option>
+            </select>
+          </div>
+        </div>
+        <div class="tabla-wrap">
+          <table class="tabla-conteo" id="tabla-bodega-entrada">
+            <thead class="sticky-thead"></thead>
+            <tbody id="tbody-bodega-entrada"></tbody>
+          </table>
+        </div>
+        <button class="btn-p" id="btn-guardar-bodega">Registrar Entrada</button>
+        <p class="msg" id="bodega-msg"></p>
+      </div>
+      <div class="card">
+        <div class="floating-header compact-filter-bar">
+          <h2><i class="ti ti-boxes"></i> Stock actual de Bodega</h2>
+          <div class="filtro-compacto" title="Sucursal">
+            <i class="ti ti-building-store"></i>
+            <select id="stock-sucursal"></select>
+          </div>
+        </div>
+        <div class="tabla-wrap"><table class="tabla-conteo" id="tabla-stock"></table></div>
+      </div>
+    </div>
+
+    <!-- ---------- REVISIÓN DE CONTADORES ---------- -->
+    <div class="tab-panel hidden" id="tab-contadores">
+      <div class="card">
+        <div class="floating-header compact-filter-bar">
+          <h2><i class="ti ti-printer"></i> Revisión de Contadores</h2>
+          <div class="filtro-compacto" title="Sucursal">
+            <i class="ti ti-building-store"></i>
+            <select id="contadores-sucursal"></select>
+          </div>
+          <div class="filtro-compacto" title="Turno a revisar">
+            <i class="ti ti-clock"></i>
+            <select id="contadores-turno"></select>
+          </div>
+          <div id="contadores-info" class="sub"></div>
+        </div>
+        <p class="msg" id="contadores-msg"></p>
+
+        <!-- ---------- SECCIÓN SUPERIOR: HARDWARE (lado a lado, apilado en móvil) ---------- -->
+        <div class="contadores-hardware-grid">
+          <div class="contadores-box">
+            <h3 id="tabla-imp1-titulo">IMPRESORA 1 (COLOR)</h3>
+            <div class="tabla-wrap scrollable-table-container"><table class="tabla-conteo" id="tabla-imp1"></table></div>
+          </div>
+          <div class="contadores-box">
+            <h3 id="tabla-imp2-titulo">IMPRESORA 2 (BYN)</h3>
+            <div class="tabla-wrap scrollable-table-container"><table class="tabla-conteo" id="tabla-imp2"></table></div>
+          </div>
+        </div>
+        <button class="btn-p" id="btn-guardar-contadores">Guardar y Recalcular</button>
+
+        <!-- ---------- SECCIÓN INFERIOR: CUADRE VS + SCANNER (apilados) ---------- -->
+        <div class="contadores-box contadores-box-cuadre">
+          <h3>Contadores vs Cobradas</h3>
+          <div class="tabla-wrap scrollable-table-container">
+            <table class="tabla-conteo" id="tabla-cuadre">
+              <thead class="sticky-thead">
+                <tr><th>Concepto</th><th>Contadores (Procesado)</th><th>Cobradas</th><th>Diferencia</th></tr>
+              </thead>
+              <tbody id="tbody-cuadre"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="contadores-box contadores-box-scanner">
+          <h3>Scanner (cálculo independiente)</h3>
+          <div class="tabla-wrap scrollable-table-container">
+            <table class="tabla-conteo" id="tabla-scanner">
+              <thead class="sticky-thead">
+                <tr><th>Concepto</th><th>Procesados</th><th>Merma</th><th>Cobrados</th><th>Diferencia</th></tr>
+              </thead>
+              <tbody id="tbody-scanner"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------- BITACORA + PISO, BODEGA Y SISTEMA ---------- -->
+    <div class="tab-panel hidden" id="tab-inventario">
+      <div class="card">
+        <div class="floating-header compact-filter-bar">
+          <h2><i class="ti ti-clipboard-check"></i> BITACORA + PISO, BODEGA Y SISTEMA</h2>
+          <div class="filtro-compacto" title="Sucursal">
+            <i class="ti ti-building-store"></i>
+            <select id="inv-sucursal"></select>
+          </div>
+          <div class="filtro-compacto" title="Fecha">
+            <i class="ti ti-calendar"></i>
+            <input type="date" id="inv-fecha">
+          </div>
+          <div class="tabs tabs-secundarias" id="inv-turno-tabs">
+            <button class="tab-btn-sec activo" data-turno="T1">Ver T1</button>
+            <button class="tab-btn-sec" data-turno="T2">Ver T2</button>
+            <button class="tab-btn-sec" data-turno="T3">Ver T3</button>
+          </div>
+          <div id="inv-info" class="sub"></div>
+        </div>
+        <div class="tabla-wrap scrollable-table-container">
+          <table class="tabla-conteo" id="tabla-inventario">
+            <thead class="sticky-thead">
+              <tr>
+                <th>Categoría</th><th>Insumo</th><th>Turno Anterior</th><th>Recibo</th><th>Me Surten</th><th>Vendido</th><th>Entregó</th><th>Bodega</th><th>Total Físico</th><th>Sistema</th><th>Diferencia</th>
+              </tr>
+            </thead>
+            <tbody id="tbody-inventario"></tbody>
+          </table>
+        </div>
+        <button class="btn-p" id="btn-guardar-revision">Guardar Revisión</button>
+        <p class="msg" id="inv-revision-msg"></p>
+      </div>
+    </div>
+
+    <!-- ---------- COMPARACIONES ---------- -->
+    <div class="tab-panel hidden" id="tab-comparaciones">
+      <div class="card">
+        <div class="floating-header compact-filter-bar">
+          <h2><i class="ti ti-arrows-left-right"></i> Comparaciones entre Turnos</h2>
+          <div class="filtro-compacto" title="Sucursal">
+            <i class="ti ti-building-store"></i>
+            <select id="comp-sucursal"></select>
+          </div>
+          <div class="filtro-compacto" title="Categoría">
+            <i class="ti ti-category"></i>
+            <select id="comp-categoria">
+              <option value="papeleria">Papelería</option>
+              <option value="snack">Snack</option>
+              <option value="novedades">Novedades</option>
+            </select>
+          </div>
+          <div class="filtro-compacto" title="Fecha (día operativo)">
+            <i class="ti ti-calendar"></i>
+            <input type="date" id="comp-fecha">
+          </div>
+          <p class="sub">Compara el "Entregó" de un turno contra el "Recibió" del siguiente (Termino T3 día anterior vs Empezó T1, Termino T1 vs Empezó T2, Termino T2 vs Empezó T3).</p>
+        </div>
+        <div class="tabla-wrap"><table class="tabla-conteo" id="tabla-comparaciones"></table></div>
+      </div>
+    </div>
+
+    <!-- ---------- GESTIÓN DE TURNOS ---------- -->
+    <div class="tab-panel hidden" id="tab-historial">
+      <div class="card">
+        <div class="floating-header compact-filter-bar">
+          <h2><i class="ti ti-history"></i> Gestión de Turnos</h2>
+          <div class="filtro-compacto" title="Sucursal">
+            <i class="ti ti-building-store"></i>
+            <select id="hist-sucursal"><option value="">Todas</option></select>
+          </div>
+          <p class="sub">Historial completo. Usa "Editar" para pruebas de captura retroactiva (ej. simular un T3 de un día anterior) o para corregir un error de dedo del colaborador.</p>
+        </div>
+        <div class="tabla-wrap scrollable-table-container">
+          <table class="tabla-conteo" id="tabla-historial">
+            <thead class="sticky-thead">
+              <tr>
+                <th>Sucursal</th><th>Turno</th><th>Fecha operativa</th><th>Colaboradores</th><th>Estado</th><th>Inicio</th><th>Cierre</th><th>Corte de Caja</th><th>Acciones</th>
+              </tr>
+            </thead>
+            <tbody id="tbody-historial"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------- INVENTARIOS ---------- -->
+    <div class="tab-panel hidden" id="tab-inventarios">
+      <div class="card">
+        <h2><i class="ti ti-clipboard-list"></i> Inventarios Automáticos</h2>
+        <p class="sub">Cada botón genera y descarga el Excel de esa categoría para la sucursal seleccionada. Papelería usa Bodega + Entregó del Turno 1 de hoy; Snack y Novedades usan lo que recibió ese mismo Turno 1; Limpieza sale en blanco para captura manual. En Papelería, los paquetes de hoja se multiplican automáticamente ×500.</p>
+        <label>Sucursal <select id="inv-excel-sucursal"></select></label>
+        <div class="inv-grid">
+          <button class="inv-btn" data-inv="papeleria"><i class="ti ti-files"></i>Papelería</button>
+          <button class="inv-btn" data-inv="snack"><i class="ti ti-candy"></i>Snack</button>
+          <button class="inv-btn" data-inv="novedades"><i class="ti ti-gift"></i>Novedades</button>
+          <button class="inv-btn" data-inv="limpieza"><i class="ti ti-spray"></i>Limpieza</button>
+        </div>
+        <p class="msg" id="inv-excel-msg"></p>
+      </div>
+    </div>
+
+    <!-- ---------- REPORTES DE SUCURSAL ---------- -->
+    <div class="tab-panel hidden" id="tab-reportes">
+      <div class="card">
+        <h2><i class="ti ti-list-check"></i> Reportes Pendientes</h2>
+        <p class="sub">Filtrados automáticamente por las sucursales a las que tienes acceso.</p>
+        <div id="lista-reportes-panel" class="reportes-lista"></div>
+      </div>
+      <div class="card">
+        <h2><i class="ti ti-square-plus"></i> Registrar Nuevo Reporte</h2>
+        <label>Sucursal <select id="rep-panel-sucursal"></select></label>
+        <label>Departamento <select id="rep-panel-departamento"></select></label>
+        <div id="rep-panel-sistemas-box" class="hidden">
+          <label>Categoría (Sistemas) <select id="rep-panel-sistemas-categoria"></select></label>
+          <label>Problema específico <select id="rep-panel-sistemas-problema"></select></label>
+        </div>
+        <label class="full">Descripción (opcional)
+          <textarea id="rep-panel-descripcion" rows="3" placeholder="Detalles adicionales del reporte..."></textarea>
+        </label>
+        <button class="btn-p" id="btn-guardar-reporte-panel">Registrar Reporte</button>
+        <p class="msg" id="reportes-panel-msg"></p>
+      </div>
+    </div>
+
+    <!-- ---------- REGISTRO DE TICKETS i24h ---------- -->
+    <div class="tab-panel hidden" id="tab-tickets">
+      <div class="card">
+        <div class="floating-header compact-filter-bar">
+          <h2><i class="ti ti-receipt"></i> Registro de tickets i24h</h2>
+          <div class="filtro-compacto" title="Sucursal">
+            <i class="ti ti-building-store"></i>
+            <select id="tk-f-sucursal"><option value="">Todas</option></select>
+          </div>
+          <div class="filtro-compacto" title="Turno">
+            <i class="ti ti-clock"></i>
+            <select id="tk-f-turno">
+              <option value="">Todos</option>
+              <option value="T1">T1</option>
+              <option value="T2">T2</option>
+              <option value="T3">T3</option>
+            </select>
+          </div>
+          <div class="filtro-compacto" title="Fecha">
+            <i class="ti ti-calendar"></i>
+            <input type="date" id="tk-f-fecha">
+          </div>
+          <div class="filtro-compacto" title="Colaborador">
+            <i class="ti ti-user"></i>
+            <input type="text" id="tk-f-colaborador" placeholder="Colaborador">
+          </div>
+          <div class="filtro-compacto" title="Número de ticket">
+            <i class="ti ti-hash"></i>
+            <input type="text" id="tk-f-numero" placeholder="N° ticket">
+          </div>
+          <button type="button" class="btn-o btn-sm" id="tk-btn-limpiar-filtros">Limpiar filtros</button>
+          <p class="sub">Filtrados automáticamente por las sucursales a las que tienes acceso.</p>
+        </div>
+        <p class="sub" id="tk-totales"></p>
+        <div class="tabla-wrap scrollable-table-container">
+          <table class="tabla-conteo" id="tabla-tickets">
+            <thead class="sticky-thead">
+              <tr>
+                <th>Sucursal</th><th>Turno</th><th>Fecha</th><th>Colaborador</th><th>N° Ticket</th><th>Cantidad</th><th>Concepto</th><th>Acciones</th>
+              </tr>
+            </thead>
+            <tbody id="tbody-tickets"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------- GESTIÓN DE PERSONAL (solo admins) ---------- -->
+    <div class="tab-panel hidden" id="tab-personal">
+      <div class="card">
+        <h2><i class="ti ti-users"></i> Gestión de Personal</h2>
+        <p class="sub">Solo tú (administrador) puedes crear cuentas, cambiar contraseñas y asignar sucursales. Cada operativo/líder solo verá lo que le marques aquí.</p>
+        <div class="tabla-wrap"><table class="tabla-conteo" id="tabla-personal"></table></div>
+
+        <h3>Agregar nuevo Operativo / Líder</h3>
+        <div class="grid-corte">
+          <label>Nombre <input type="text" id="np-nombre" placeholder="Ej. Samantha"></label>
+          <label>Contraseña <input type="text" id="np-password" placeholder="Contraseña inicial"></label>
+          <label>Rol
+            <select id="np-rol">
+              <option value="operativo">Operativo</option>
+              <option value="lider">Líder</option>
+            </select>
+          </label>
+        </div>
+        <button class="btn-p btn-sm" id="btn-crear-usuario">+ Crear usuario</button>
+        <p class="msg" id="personal-msg"></p>
+      </div>
+    </div>
+
+    <!-- ---------- GESTIÓN DE CATÁLOGOS (solo admins) ---------- -->
+    <div class="tab-panel hidden" id="tab-catalogos">
+      <div class="card">
+        <h2><i class="ti ti-list-details"></i> Gestión de Catálogos</h2>
+        <p class="sub">Lo que agregues, edites o elimines aquí se refleja en Inicio de Turno, Inventarios, Me Surten y Reportes de Sistemas.</p>
+        <div class="tabs tabs-secundarias">
+          <button class="tab-btn-sec activo" data-cat="papeleria">Papelería</button>
+          <button class="tab-btn-sec" data-cat="snack">Snack</button>
+          <button class="tab-btn-sec" data-cat="novedades">Novedades</button>
+          <button class="tab-btn-sec" data-cat="limpieza">Limpieza</button>
+          <button class="tab-btn-sec" data-cat="sistemas">Sistemas</button>
+        </div>
+
+        <div class="grid-corte" id="cat-agregar-simple">
+          <label>Nuevo insumo <input type="text" id="cat-nuevo-nombre" placeholder="Ej. DUVALÍN"></label>
+          <label>&nbsp;<button type="button" class="btn-p btn-sm" id="cat-btn-agregar">+ Agregar</button></label>
+        </div>
+        <div class="grid-corte hidden" id="cat-agregar-sistemas">
+          <label>Nueva categoría de Sistemas <input type="text" id="cat-nueva-categoria" placeholder="Ej. IMPRESORAS"></label>
+          <label>&nbsp;<button type="button" class="btn-p btn-sm" id="cat-btn-agregar-categoria">+ Agregar categoría</button></label>
+        </div>
+
+        <p class="msg" id="catalogos-msg"></p>
+        <div id="catalogos-lista" class="catalogos-lista"></div>
+      </div>
+    </div>
+
+    <!-- ---------- MONITOREO EN TIEMPO REAL (solo admins) ---------- -->
+    <div class="tab-panel hidden" id="tab-monitoreo">
+      <div class="card">
+        <h2><i class="ti ti-eye"></i> Panel de Monitoreo</h2>
+        <p class="sub">Se actualiza automáticamente cada 5 segundos.</p>
+        <div class="tabs tabs-secundarias">
+          <button class="tab-btn-sec activo" data-mon="colaboradores">Colaboradores</button>
+          <button class="tab-btn-sec" data-mon="lideres">Líderes</button>
+          <button class="tab-btn-sec" data-mon="operativos">Operativos</button>
+        </div>
+        <div id="lista-actividad" class="actividad-lista"></div>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<!-- ============ MODAL: EDITAR SUCURSALES DE UN USUARIO ============ -->
+<div id="modal-sucursales-overlay" class="modal-overlay hidden">
+  <div class="modal-box modal-box-grande">
+    <h2><i class="ti ti-map-pin"></i> Sucursales de <span id="modal-sucursales-nombre"></span></h2>
+    <p class="sub">Marca las sucursales que puede ver y operar. Se guarda al instante para todos los endpoints.</p>
+    <div id="modal-sucursales-checklist" class="checklist-sucursales"></div>
+    <p class="msg" id="modal-sucursales-msg"></p>
+    <div class="modal-acciones">
+      <button class="btn-o" id="modal-sucursales-cancelar">Cancelar</button>
+      <button class="btn-p" id="modal-sucursales-guardar">Guardar Cambios</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ MODAL: CAMBIAR CONTRASEÑA ============ -->
+<div id="modal-password-overlay" class="modal-overlay hidden">
+  <div class="modal-box">
+    <h2><i class="ti ti-key"></i> Cambiar contraseña</h2>
+    <p class="sub">Nueva contraseña para <b id="modal-password-nombre"></b></p>
+    <label>Nueva contraseña <input type="text" id="modal-password-input"></label>
+    <p class="msg" id="modal-password-msg"></p>
+    <div class="modal-acciones">
+      <button class="btn-o" id="modal-password-cancelar">Cancelar</button>
+      <button class="btn-p" id="modal-password-guardar">Guardar</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ MODAL: EDITAR TURNO ============ -->
+<div id="modal-editar-overlay" class="modal-overlay hidden">
+  <div class="modal-box modal-box-grande">
+    <h2><i class="ti ti-edit"></i> Editar Turno <span id="modal-editar-id" class="modal-id"></span></h2>
+    <p class="sub">Corrige la identidad del turno (para pruebas retroactivas de T3) o un error de captura. Solo se guardan los campos que cambies.</p>
+
+    <div class="grid-corte">
+      <label>Fecha operativa <input type="date" id="ed-fecha"></label>
+      <label>Turno <select id="ed-turno"><option value="T1">T1</option><option value="T2">T2</option><option value="T3">T3</option></select></label>
+      <label>Sucursal <select id="ed-sucursal"></select></label>
+      <label>Colaborador <input type="text" id="ed-colaborador"></label>
+    </div>
+
+    <h3>Corrección rápida de inventario</h3>
+    <p class="sub">Solo se listan los artículos que ya tienen movimiento en este turno. Para agregar otro, selecciónalo abajo.</p>
+    <div class="tabla-wrap"><table class="tabla-conteo" id="ed-tabla-inventario"></table></div>
+    <div class="grid-corte ed-agregar-articulo">
+      <label>Categoría
+        <select id="ed-nueva-categoria">
+          <option value="papeleria">Papelería</option>
+          <option value="snack">Snack</option>
+          <option value="novedades">Novedades</option>
+        </select>
+      </label>
+      <label>Artículo <select id="ed-nuevo-articulo"></select></label>
+      <label>&nbsp;<button type="button" class="btn-o btn-sm" id="ed-btn-agregar-articulo">+ Agregar a la tabla</button></label>
+    </div>
+
+    <h3>Contadores de impresoras</h3>
+    <div class="tabla-wrap"><table class="tabla-conteo" id="ed-tabla-contadores"></table></div>
+
+    <h3>Corte de Caja</h3>
+    <div class="grid-corte">
+      <label>Último Ticket <input type="text" id="ed-ultimo-ticket"></label>
+      <label>Venta Total ($) <input type="number" id="ed-venta-total"></label>
+      <label>SDP ($) <input type="number" id="ed-sdp"></label>
+      <label>Sobres de acta procesados (#) <input type="number" id="ed-sobres"></label>
+      <label>TI24H ($) <input type="number" id="ed-ti24h"></label>
+      <label>T Gen ($) <input type="number" id="ed-tgen"></label>
+      <label>Scanner Cobrados <input type="number" id="ed-scanner-cobrados"></label>
+      <label>Scanner Merma <input type="number" id="ed-scanner-merma"></label>
+    </div>
+    <label class="full">Explicación de venta <textarea id="ed-explicacion" rows="2"></textarea></label>
+
+    <p class="msg" id="modal-editar-msg"></p>
+    <div class="modal-acciones">
+      <button class="btn-o" id="modal-editar-cancelar">Cancelar</button>
+      <button class="btn-p" id="modal-editar-guardar">Guardar Cambios</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ MODAL: EDITAR TICKET i24h ============ -->
+<div id="modal-ticket-overlay" class="modal-overlay hidden">
+  <div class="modal-box">
+    <h2><i class="ti ti-receipt"></i> Editar Ticket <span id="modal-ticket-id" class="modal-id"></span></h2>
+    <p class="sub">Colaborador, sucursal, turno y fecha no se pueden modificar aquí.</p>
+    <label>Número de ticket <input type="text" inputmode="numeric" id="tkm-numero"></label>
+    <label>Cantidad ($) <input type="text" inputmode="numeric" id="tkm-cantidad"></label>
+    <label>Concepto <input type="text" id="tkm-concepto"></label>
+    <p class="msg" id="modal-ticket-msg"></p>
+    <div class="modal-acciones">
+      <button class="btn-o" id="modal-ticket-cancelar">Cancelar</button>
+      <button class="btn-p" id="modal-ticket-guardar">Guardar Cambios</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast-container" id="toast-container"></div>
+
+<script src="/panel.js"></script>
+</body>
+</html>

@@ -1,0 +1,690 @@
+:root {
+  --bg: #f4f6f9;
+  --card-bg: #ffffff;
+  --texto: #1a2233;
+  --texto-sub: #64748b;
+  --primario: #0f62d6;
+  --primario-hover: #0b4fae;
+  --borde: #e2e8f0;
+  --rojo: #dc2626;
+  --rojo-bg: #fef2f2;
+  --verde: #16a34a;
+  --verde-bg: #f0fdf4;
+  --tabla-header: #eef2f8;
+  --sombra: 0 2px 10px rgba(15, 23, 42, 0.06);
+}
+
+html.dark {
+  --bg: #0f1420;
+  --card-bg: #171e2c;
+  --texto: #e7ecf5;
+  --texto-sub: #94a3b8;
+  --primario: #3b82f6;
+  --primario-hover: #2563eb;
+  --borde: #2b3446;
+  --rojo: #f87171;
+  --rojo-bg: #2a1414;
+  --verde: #4ade80;
+  --verde-bg: #10241a;
+  --tabla-header: #1e2635;
+  --sombra: 0 2px 12px rgba(0, 0, 0, 0.4);
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--texto);
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  transition: background 0.2s, color 0.2s;
+}
+
+.w { max-width: 1200px; margin: 0 auto; padding: 0 20px 60px; }
+.hidden { display: none !important; }
+
+/* ---------- NAV ---------- */
+.nav {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 18px 0; border-bottom: 1px solid var(--borde); margin-bottom: 20px;
+  flex-wrap: wrap; gap: 12px;
+}
+.logo { font-size: 22px; font-weight: 800; color: var(--primario); }
+.logo span { display: block; font-size: 13px; font-weight: 400; color: var(--texto-sub); }
+.nav-links { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+.nav-links a { color: var(--texto); text-decoration: none; font-size: 14px; font-weight: 600; }
+.nav-links a:hover { color: var(--primario); }
+#nav-usuario-box, #lider-box { display: flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 600; }
+.toggle-btn {
+  display: flex; align-items: center; gap: 6px; background: transparent;
+  border: 1px solid var(--borde); color: var(--texto); padding: 7px 12px;
+  border-radius: 8px; cursor: pointer; font-size: 13px;
+}
+
+/* ---------- QUICKNAV FIJO ---------- */
+.quicknav {
+  position: sticky; top: 0; z-index: 50;
+  display: flex; align-items: center; justify-content: center; gap: 10px; flex-wrap: wrap;
+  background: var(--card-bg); border: 1px solid var(--borde); border-radius: 12px;
+  padding: 10px 16px; margin-bottom: 24px; box-shadow: var(--sombra);
+}
+.quicknav button {
+  background: transparent; border: none; color: var(--primario);
+  font-weight: 800; font-size: 13px; letter-spacing: 0.03em; cursor: pointer; padding: 6px 4px;
+}
+.quicknav button:hover { text-decoration: underline; }
+.quicknav span { color: var(--texto-sub); font-weight: 700; }
+
+/* ---------- BOTONES ---------- */
+.btn-p, .btn-o {
+  border: none; padding: 12px 20px; border-radius: 10px; font-weight: 700;
+  cursor: pointer; font-size: 15px; display: inline-flex; align-items: center; gap: 8px;
+}
+.btn-p { background: var(--primario); color: #fff; }
+.btn-p:hover { background: var(--primario-hover); }
+.btn-p:disabled { opacity: 0.5; cursor: not-allowed; }
+.btn-o { background: transparent; border: 1.5px solid var(--primario); color: var(--primario); }
+.btn-o:hover { background: rgba(15, 98, 214, 0.08); }
+.btn-sm { padding: 7px 14px; font-size: 13px; border-radius: 8px; }
+.btn-volver-abajo { margin-top: 24px; display: block; width: 100%; justify-content: center; }
+
+/* ---------- CARDS ---------- */
+.card {
+  background: var(--card-bg); border: 1px solid var(--borde); border-radius: 16px;
+  padding: 24px; margin-bottom: 24px; box-shadow: var(--sombra);
+}
+.card-acceso { max-width: 460px; margin: 40px auto; }
+
+h1 { font-size: 26px; display: flex; align-items: center; gap: 10px; margin-bottom: 6px; }
+/* Título del Panel de Control (solo panel.html).
+   VUELVE a ser "sticky" (pegado arriba al hacer scroll), pero esta vez SIN
+   el hueco decorativo que causaba el bug anterior: antes había 15px de
+   separación "de aire" entre el título y la barra de filtros de abajo, sin
+   fondo propio, por donde se veían pasar las filas de la tabla. Ahora el
+   título y la barra quedan PEGADOS entre sí, sin ningún espacio en medio
+   (ver .floating-header más abajo: su "top" es exactamente la altura de
+   este título, cero margen). Con eso ya no hay ningún hueco que tapar.
+   Alto FIJO a propósito (no medido por JS): el título nunca cambia de
+   contenido, así que no hay nada que sincronizar. Sin scroll interno. */
+.panel-titulo-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 92; /* por encima de la barra (91) y de la tabla (50) */
+  background: var(--bg);
+  height: 64px;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+h2 { font-size: 19px; display: flex; align-items: center; gap: 8px; margin: 0 0 14px; }
+h3 { font-size: 16px; margin: 24px 0 10px; }
+.sub { color: var(--texto-sub); margin-top: 0; margin-bottom: 20px; font-size: 14px; }
+.sub-tabla { color: var(--texto-sub); margin: -8px 0 20px; font-size: 12px; font-weight: 600; text-align: center; }
+
+/* ---------- FORMULARIOS ---------- */
+form { display: flex; flex-direction: column; gap: 16px; }
+label { display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 600; color: var(--texto-sub); margin-bottom: 14px; }
+label.full { width: 100%; }
+label.ultimo-ticket-input { font-size: 16px; font-weight: 800; color: var(--texto); margin-bottom: 20px; }
+label.ultimo-ticket-input input { font-size: 18px; padding: 12px 14px; }
+input, select, textarea {
+  padding: 10px 12px; border-radius: 8px; border: 1px solid var(--borde);
+  background: var(--bg); color: var(--texto); font-size: 14px; font-family: inherit;
+}
+input:focus, select:focus, textarea:focus { outline: none; border-color: var(--primario); }
+input[type="number"] { width: 100px; }
+/* Quita las flechas de scroll/incremento de TODOS los inputs numéricos */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* El navegador ignora el "background" del <select> al pintar la lista
+   desplegable y usa blanco nativo por su cuenta — hay que forzarlo también
+   en cada <option>, o el texto queda ilegible en modo oscuro. */
+select { color-scheme: light; }
+html.dark select { color-scheme: dark; }
+select option {
+  background-color: var(--card-bg);
+  color: var(--texto);
+}
+
+.msg { font-size: 14px; margin-top: 10px; font-weight: 600; }
+.msg-ok { color: var(--verde); }
+.msg-error, .msg.msg-error { color: var(--rojo); }
+
+/* ---------- MENÚ ---------- */
+.grid-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 18px; }
+.tile {
+  background: var(--card-bg); border: 1px solid var(--borde); border-radius: 16px;
+  padding: 32px 16px; display: flex; flex-direction: column; align-items: center; gap: 12px;
+  cursor: pointer; font-weight: 700; font-size: 15px; color: var(--texto); box-shadow: var(--sombra);
+  position: relative;
+}
+.tile:hover { border-color: var(--primario); color: var(--primario); }
+.tile i { font-size: 34px; color: var(--primario); }
+.tile-estado { font-size: 12px; font-weight: 700; padding: 3px 10px; border-radius: 20px; }
+.tile-estado.ok { background: var(--verde-bg); color: var(--verde); }
+.tile-estado.pendiente { background: var(--tabla-header); color: var(--texto-sub); }
+
+/* ---------- TABLAS ---------- */
+/* DIAGNÓSTICO (por qué se cambia de arquitectura aquí):
+   Antes .tabla-wrap tenía overflow-x: auto; overflow-y: visible; para usar
+   solo el scroll de la página. El spec de CSS Overflow tiene una regla poco
+   conocida: si UN eje es "visible" y el OTRO no lo es (en el MISMO
+   elemento), el navegador fuerza el eje "visible" a volverse "auto" por
+   debajo, sin avisar y sin que "!important" lo evite. Por eso la única
+   forma real de lograr "que el thead sea sticky respecto a la página" es
+   dejar AMBOS ejes en visible — no se puede combinar con overflow-x:auto en
+   el mismo contenedor. En pantallas angostas, la tabla ancha puede generar
+   scroll horizontal de la PÁGINA completa en vez de un cuadro contenido;
+   es un compromiso aceptado a cambio de que el sticky funcione de verdad.
+   (En móvil ya se quita el min-width de las tablas más abajo, así que en la
+   práctica casi nunca llega a hacer falta ese scroll horizontal.) */
+.tabla-wrap,
+.scrollable-table-container {
+  overflow-x: visible;
+  overflow-y: visible;
+  margin-bottom: 16px;
+}
+.tabla-conteo { width: 100%; border-collapse: separate; border-spacing: 0; font-size: 13px; min-width: 600px; }
+.tabla-conteo th, .tabla-conteo td { padding: 8px 10px; border-bottom: 1px solid var(--borde); text-align: center; white-space: nowrap; }
+.tabla-conteo th,
+thead.sticky-thead th {
+  background-color: var(--tabla-header); /* fondo sólido obligatorio: sin esto, las
+                                       filas se encimarían al texto al subir */
+  font-weight: 700;
+  position: sticky;
+  /* Calculado en vivo por panel.js (sincronizarAltoFiltro): altura real del
+     título (fija) + altura real de la barra de filtros VISIBLE en la
+     pestaña actual (variable: Entrada a Bodega es más baja que Bitácora,
+     que trae T1/T2/T3 + texto informativo) — SIN sumar ningún espacio
+     decorativo extra, para que quede pegado justo donde termina la barra,
+     sin huecos. En index.html (que no usa panel.js) simplemente se usa el
+     valor por defecto de 90px. */
+  top: var(--filtro-alto, 90px);
+  z-index: 50; /* por debajo del título (92) y la barra (91) de panel.html */
+}
+.tabla-conteo .col-item { text-align: left; font-weight: 600; white-space: normal; min-width: 180px; }
+.tabla-conteo input[type="number"] { width: 80px; text-align: center; }
+.fila-tramites td { background: var(--tabla-header); font-weight: 600; }
+
+/* Regla de color estricta: negativo = rojo, positivo = verde */
+/* Regla de color estricta: solo el TEXTO cambia, sin fondos ni bordes */
+.dif-negativo { color: var(--rojo); font-weight: bold; }
+.dif-positivo { color: var(--verde); font-weight: bold; }
+.dif-neutro { color: var(--texto); font-weight: bold; }
+
+/* ---------- CORTE DE CAJA / GRID ---------- */
+.grid-corte { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 14px; margin-bottom: 16px; }
+
+#resumen-box { margin-top: 20px; }
+#resumen-texto { width: 100%; font-family: monospace; font-size: 13px; margin-bottom: 10px; }
+
+/* ---------- MODAL ---------- */
+.modal-overlay {
+  position: fixed; inset: 0; background: rgba(15, 20, 32, 0.55);
+  display: flex; align-items: center; justify-content: center; z-index: 999; padding: 20px;
+}
+.modal-box {
+  background: var(--card-bg); border-radius: 18px; padding: 32px; max-width: 420px; width: 100%;
+  text-align: center; box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+}
+.modal-box h2 { justify-content: center; font-size: 20px; color: var(--verde); margin-bottom: 8px; }
+.modal-acciones { display: flex; gap: 12px; justify-content: center; margin-top: 20px; flex-wrap: wrap; }
+
+/* Variante grande para el modal de Editar Turno: más ancho, con scroll, texto alineado a la izquierda */
+.modal-box-grande {
+  max-width: 900px; text-align: left; max-height: 88vh; overflow-y: auto;
+}
+.modal-box-grande h2 { justify-content: flex-start; color: var(--texto); }
+.modal-box-grande h3 { margin-top: 20px; }
+.modal-id { font-size: 13px; color: var(--texto-sub); font-weight: 400; }
+.ed-agregar-articulo { align-items: end; margin-top: -4px; }
+.ed-agregar-articulo label { margin-bottom: 0; }
+
+/* ---------- BOTONES DE ACCIÓN EN TABLAS (Editar / Eliminar) ---------- */
+.btn-accion { border: none; padding: 6px 12px; border-radius: 7px; font-weight: 700; font-size: 12px; cursor: pointer; margin: 2px; }
+.btn-editar { background: #2563eb; color: #fff; }
+.btn-editar:hover { background: #1d4ed8; }
+.btn-eliminar { background: var(--rojo); color: #fff; }
+.btn-eliminar:hover { opacity: 0.85; }
+
+/* ---------- TABS (panel de líderes) ---------- */
+.tabs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 24px; border-bottom: 1px solid var(--borde); padding-bottom: 12px; }
+.tab-btn {
+  background: transparent; border: 1px solid var(--borde); color: var(--texto-sub);
+  padding: 9px 16px; border-radius: 10px; cursor: pointer; font-weight: 700; font-size: 13px;
+}
+.tab-btn.activo { background: var(--primario); color: #fff; border-color: var(--primario); }
+.tab-btn:hover:not(.activo) { border-color: var(--primario); color: var(--primario); }
+
+/* ---------- BADGES ---------- */
+.badge-abierto { background: var(--verde-bg); color: var(--verde); padding: 3px 10px; border-radius: 20px; font-size: 12px; font-weight: 700; }
+.badge-cerrado { background: var(--tabla-header); color: var(--texto-sub); padding: 3px 10px; border-radius: 20px; font-size: 12px; font-weight: 700; }
+
+/* ---------- QUICKNAV DENTRO DE CIERRE DE TURNO ---------- */
+.quicknav-cierre {
+  display: flex; align-items: center; justify-content: center; gap: 10px; flex-wrap: wrap;
+  background: var(--tabla-header); border-radius: 10px; padding: 8px 14px; margin: 18px 0 10px;
+}
+.quicknav-cierre button {
+  background: transparent; border: none; color: var(--primario); font-weight: 800;
+  font-size: 12px; letter-spacing: 0.03em; cursor: pointer; padding: 4px 2px;
+}
+.quicknav-cierre button.activo { text-decoration: underline; color: var(--primario-hover); }
+.quicknav-cierre button:hover { text-decoration: underline; }
+.quicknav-cierre span { color: var(--texto-sub); font-weight: 700; }
+
+/* ---------- FOTOS OBLIGATORIAS (Corte de Caja) ---------- */
+.fotos-corte { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+.foto-box {
+  border: 1.5px dashed var(--borde); border-radius: 12px; padding: 16px;
+  display: flex; flex-direction: column; gap: 8px; background: var(--card-bg);
+}
+.foto-box.no-requerida { opacity: 0.6; }
+.foto-label { font-size: 13px; font-weight: 700; color: var(--texto); }
+.foto-requerida { color: var(--rojo); font-weight: 600; font-size: 12px; }
+.foto-box.no-requerida .foto-requerida { color: var(--texto-sub); }
+.foto-estado { font-size: 13px; font-weight: 700; margin: 0; color: var(--texto-sub); }
+.foto-estado.ok { color: var(--verde); }
+
+/* ---------- INVENTARIOS (líderes) ---------- */
+.inv-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 14px; margin-top: 10px; }
+.inv-btn {
+  background: var(--card-bg); border: 1px solid var(--borde); border-radius: 12px;
+  padding: 20px 12px; display: flex; flex-direction: column; align-items: center; gap: 8px;
+  cursor: pointer; font-weight: 700; font-size: 14px; color: var(--texto);
+}
+.inv-btn:hover { border-color: var(--primario); color: var(--primario); }
+.inv-btn i { font-size: 26px; color: var(--primario); }
+
+/* ---------- GESTIÓN DE PERSONAL ---------- */
+.badge-rol { padding: 3px 10px; border-radius: 20px; font-size: 11px; font-weight: 700; text-transform: uppercase; }
+.badge-rol.operativo { background: #dbeafe; color: #1d4ed8; }
+.badge-rol.lider { background: #ede9fe; color: #6d28d9; }
+html.dark .badge-rol.operativo { background: #1e3a5f; color: #93c5fd; }
+html.dark .badge-rol.lider { background: #3b2f5f; color: #c4b5fd; }
+
+.checklist-sucursales {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 8px;
+  max-height: 320px; overflow-y: auto; border: 1px solid var(--borde); border-radius: 10px;
+  padding: 14px; margin-bottom: 14px; background: var(--bg);
+}
+.checklist-sucursales label {
+  display: flex; flex-direction: row; align-items: center; gap: 8px;
+  font-size: 13px; font-weight: 600; color: var(--texto); margin-bottom: 0; cursor: pointer;
+}
+.checklist-sucursales input[type="checkbox"] { width: 16px; height: 16px; cursor: pointer; }
+
+/* ---------- MONITOREO / ACTIVIDAD EN TIEMPO REAL ---------- */
+.tabs-secundarias { border-bottom: none; padding-bottom: 0; margin-bottom: 16px; }
+.tab-btn-sec {
+  background: transparent; border: 1px solid var(--borde); color: var(--texto-sub);
+  padding: 7px 14px; border-radius: 10px; cursor: pointer; font-weight: 700; font-size: 12px;
+}
+.tab-btn-sec.activo { background: var(--primario); color: #fff; border-color: var(--primario); }
+.tab-btn-sec:hover:not(.activo) { border-color: var(--primario); color: var(--primario); }
+
+.actividad-lista { display: flex; flex-direction: column; gap: 2px; max-height: 500px; overflow-y: auto; }
+.actividad-item {
+  display: flex; gap: 12px; align-items: baseline; padding: 10px 14px;
+  border-bottom: 1px solid var(--borde); font-size: 13px;
+}
+.actividad-item:hover { background: var(--tabla-header); }
+.actividad-hora { color: var(--texto-sub); font-size: 11px; white-space: nowrap; min-width: 62px; font-family: monospace; }
+.actividad-mensaje { color: var(--texto); }
+.actividad-vacio { padding: 20px; text-align: center; color: var(--texto-sub); font-size: 13px; }
+
+/* ==========================================
+   PANEL DE LÍDERES — LAYOUT DE SIDEBAR
+   ========================================== */
+.app-shell { display: flex; min-height: 100vh; align-items: stretch; }
+
+.sidebar {
+  width: 260px; flex-shrink: 0; background: var(--card-bg); border-right: 1px solid var(--borde);
+  display: flex; flex-direction: column; position: sticky; top: 0; height: 100vh; overflow-y: auto;
+}
+.sidebar-header { padding: 24px 20px 14px; }
+.sidebar-header .logo { font-size: 22px; font-weight: 800; color: var(--primario); }
+.logo-sub { font-size: 12px; color: var(--texto-sub); margin-top: 2px; }
+
+.sidebar-contexto {
+  padding: 0 20px 16px; margin-bottom: 12px; border-bottom: 1px solid var(--borde);
+  display: flex; flex-direction: column; gap: 6px;
+}
+.contexto-admin {
+  display: inline-block; background: var(--primario); color: #fff; font-weight: 800;
+  font-size: 11px; letter-spacing: 0.04em; padding: 7px 12px; border-radius: 8px; text-align: center;
+}
+.contexto-titulo { font-size: 10px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--texto-sub); font-weight: 800; }
+.contexto-sucursal {
+  font-size: 12px; color: var(--texto); background: var(--tabla-header);
+  padding: 4px 9px; border-radius: 6px; display: inline-block; margin: 0 4px 4px 0; font-weight: 600;
+}
+
+.sidebar-nav { flex: 1; padding: 4px 12px; display: flex; flex-direction: column; gap: 18px; }
+.nav-seccion { display: flex; flex-direction: column; gap: 2px; }
+.nav-titulo {
+  font-size: 10px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--texto-sub);
+  font-weight: 800; padding: 0 12px; margin-bottom: 4px;
+}
+
+/* Reutiliza .tab-btn (misma clase que ya usa panel.js para el switch de pestañas),
+   pero ahora se ve y se comporta como un renglón de menú lateral. */
+.sidebar-nav .tab-btn {
+  display: flex; align-items: center; gap: 10px; width: 100%; text-align: left;
+  background: transparent; border: none; padding: 10px 12px; border-radius: 9px;
+  font-size: 14px; font-weight: 600; color: var(--texto); cursor: pointer;
+}
+.sidebar-nav .tab-btn i { font-size: 16px; width: 18px; text-align: center; color: var(--texto-sub); }
+.sidebar-nav .tab-btn:hover { background: var(--tabla-header); }
+.sidebar-nav .tab-btn.activo { background: var(--primario); color: #fff; }
+.sidebar-nav .tab-btn.activo i { color: #fff; }
+
+.sidebar-footer { padding: 14px 12px 18px; border-top: 1px solid var(--borde); display: flex; flex-direction: column; gap: 4px; }
+.sidebar-link {
+  display: flex; align-items: center; gap: 8px; background: transparent; border: none;
+  color: var(--texto-sub); font-size: 13px; font-weight: 600; padding: 9px 10px; border-radius: 8px;
+  cursor: pointer; text-decoration: none; width: 100%; text-align: left;
+}
+.sidebar-link:hover { background: var(--tabla-header); color: var(--texto); }
+.sidebar-salir { color: var(--rojo); margin-top: 6px; }
+.sidebar-salir:hover { background: var(--rojo-bg); }
+
+.sidebar-usuario { display: flex; align-items: center; gap: 10px; padding: 10px; margin-top: 4px; }
+.avatar-circulo {
+  width: 36px; height: 36px; border-radius: 50%; background: var(--primario); color: #fff;
+  display: flex; align-items: center; justify-content: center; font-weight: 800; flex-shrink: 0; font-size: 15px;
+}
+.avatar-wrap { position: relative; cursor: pointer; flex-shrink: 0; }
+.avatar-img {
+  width: 36px; height: 36px; border-radius: 50%; object-fit: cover; display: block; flex-shrink: 0;
+}
+.avatar-menu {
+  position: absolute; bottom: calc(100% + 6px); left: 0; z-index: 60; min-width: 170px;
+  background: var(--card-bg); border: 1px solid var(--borde); border-radius: 10px;
+  box-shadow: var(--sombra); padding: 6px; display: flex; flex-direction: column; gap: 2px;
+}
+.avatar-menu-item {
+  display: flex; align-items: center; gap: 8px; background: transparent; border: none;
+  color: var(--texto); font-size: 13px; font-weight: 600; padding: 8px 9px; border-radius: 7px;
+  cursor: pointer; text-align: left; width: 100%;
+}
+.avatar-menu-item:hover { background: var(--tabla-header); }
+.avatar-menu-item-rojo { color: var(--rojo); }
+.avatar-menu-item-rojo:hover { background: var(--rojo-bg); }
+.sidebar-usuario-nombre { font-size: 13px; font-weight: 700; color: var(--texto); }
+.sidebar-usuario-rol { font-size: 11px; color: var(--texto-sub); text-transform: capitalize; }
+
+.main-content { flex: 1; min-width: 0; padding: 30px 32px 60px; }
+
+/* ---------- Responsivo: sidebar se vuelve cajón deslizable en móvil ---------- */
+.sidebar-hamburguesa { display: none; }
+.sidebar-overlay { display: none; }
+
+@media (max-width: 900px) {
+  .sidebar-hamburguesa {
+    display: flex; position: fixed; top: 14px; left: 14px; z-index: 80;
+    background: var(--card-bg); border: 1px solid var(--borde); border-radius: 8px;
+    width: 42px; height: 42px; align-items: center; justify-content: center;
+    box-shadow: var(--sombra); font-size: 18px; color: var(--texto); cursor: pointer;
+  }
+  .sidebar {
+    position: fixed; left: -280px; top: 0; bottom: 0; z-index: 90; width: 260px;
+    transition: left 0.2s ease; box-shadow: 0 0 30px rgba(0,0,0,0.2);
+  }
+  .sidebar.abierto { left: 0; }
+  .sidebar-overlay:not(.hidden) { display: block; position: fixed; inset: 0; background: rgba(0,0,0,0.45); z-index: 85; }
+  .main-content { padding: 74px 16px 40px; }
+}
+
+/* ---------- PANTALLA DE INICIO MULTIACCESO (index.html) ---------- */
+.acceso-grid { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); max-width: 900px; margin: 0 auto; }
+.tile-acceso { padding: 40px 20px; }
+.tile-acceso i { font-size: 40px; }
+
+/* ---------- REPORTES DE SUCURSAL ---------- */
+.reportes-lista { display: flex; flex-direction: column; gap: 10px; }
+.reporte-item { border: 1px solid var(--borde); border-radius: 10px; padding: 12px 14px; background: var(--bg); }
+.reporte-cabecera { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
+.reporte-depto { font-weight: 800; font-size: 12px; text-transform: uppercase; color: var(--primario); background: var(--tabla-header); padding: 3px 9px; border-radius: 6px; }
+.reporte-fecha { font-size: 11px; color: var(--texto-sub); }
+.reporte-detalle { font-size: 13px; font-weight: 700; color: var(--texto); margin-bottom: 4px; }
+.reporte-descripcion { font-size: 13px; color: var(--texto-sub); margin-bottom: 4px; }
+.reporte-autor { font-size: 11px; color: var(--texto-sub); font-style: italic; }
+.reportes-vacio { padding: 16px; text-align: center; color: var(--texto-sub); font-size: 13px; }
+
+/* ---------- FECHA EDITABLE INLINE (Gestión de Turnos) ---------- */
+.celda-fecha-editable { display: flex; align-items: center; gap: 6px; white-space: nowrap; }
+.celda-fecha-editable input[type="date"] { padding: 5px 6px; font-size: 12px; width: 130px; }
+.btn-guardar-fecha { padding: 5px 9px; font-size: 11px; }
+
+/* ---------- REVISIÓN DE CONTADORES: LAYOUT VERTICAL (arriba y abajo) ---------- */
+/* Sección superior: las dos impresoras lado a lado; se apilan en móvil. */
+.contadores-hardware-grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 20px; align-items: start; margin-top: 10px;
+}
+.contadores-box {
+  background: var(--bg); border: 1px solid var(--borde); border-radius: 12px; padding: 16px; margin-top: 20px;
+}
+.contadores-box h3 { margin: 0 0 10px; font-size: 14px; }
+.contadores-box .tabla-conteo input[type="number"] { width: 75px; }
+#btn-guardar-contadores { margin-top: 16px; }
+
+.fila-grupo td {
+  background: var(--tabla-header); font-weight: 800; font-size: 11px;
+  text-transform: uppercase; letter-spacing: 0.04em; color: var(--texto-sub);
+}
+
+@media (max-width: 900px) {
+  .contadores-hardware-grid { grid-template-columns: 1fr; }
+}
+
+.fila-total td { background: var(--tabla-header); font-weight: 700; }
+.fila-diferencia td { font-size: 15px; padding-top: 10px; padding-bottom: 10px; }
+.separador-informativas { color: var(--texto-sub); font-size: 11px; font-style: italic; padding-top: 14px !important; border-top: 1px dashed var(--borde); }
+.fila-informativa td { color: var(--texto-sub); font-size: 12px; }
+
+/* ==========================================
+   AJUSTE RESPONSIVO GENERAL PARA MÓVIL
+   Aplica a index.html (piso) y panel.html (líderes) por igual, ya que
+   ambos comparten este archivo. No toca estilos ni layout en escritorio.
+   ========================================== */
+@media (max-width: 640px) {
+  /* Menos espacio en blanco antes del contenido: el h1 y el texto
+     explicativo ya no ocupan tanto en pantallas chicas. */
+  .w { padding: 0 14px 40px; }
+  h1 { font-size: 20px; margin-bottom: 4px; }
+  .sub { font-size: 12.5px; margin-bottom: 12px; }
+  .card { padding: 16px; margin-bottom: 16px; }
+  .nav { padding: 12px 0; margin-bottom: 16px; }
+
+  /* La causa real de "hay que rotar el teléfono": las tablas de captura
+     (Insumo + Cantidad, Cobrado, Trámites, etc.) tenían un min-width fijo
+     de 600px sin importar cuántas columnas tuvieran, obligando siempre al
+     scroll horizontal aunque el contenido cupiera perfecto en la pantalla.
+     Al quitar ese mínimo artificial, las tablas de 2-3 columnas (la gran
+     mayoría: conteo de insumos, cobrado, trámites, inventarios) se acomodan
+     solas al ancho real del teléfono sin necesitar scroll ni rotación.
+     Las tablas genuinamente anchas (Comparaciones, Piso-Bodega-Sistema, con
+     8-11 columnas) seguirán permitiendo scroll horizontal dentro de su propio
+     recuadro cuando el contenido real lo necesite — eso es inevitable con
+     tantas columnas en cualquier pantalla de celular — pero ya no se fuerza
+     de forma artificial como antes. */
+  .tabla-conteo { min-width: 0; font-size: 12.5px; }
+  .tabla-conteo th, .tabla-conteo td { padding: 7px 6px; }
+  .tabla-conteo .col-item { min-width: 0; }
+  .tabla-conteo input[type="number"] { width: 62px; padding: 6px 4px; }
+
+  /* Menos relleno vertical general en formularios/labels para aprovechar
+     mejor la pantalla y que los campos aparezcan de inmediato. */
+  label { margin-bottom: 10px; }
+  .grid-corte, .grid-menu { gap: 10px; }
+}
+
+@media (max-width: 900px) {
+  /* El panel de líderes reservaba 74px arriba para el botón de hamburguesa;
+     con el h1 ya más chico en móvil, basta con lo justo para no taparlo. */
+  .main-content { padding-top: 60px; }
+}
+
+/* ========================================
+   TOASTS — notificaciones no intrusivas
+   ======================================== */
+.toast-container {
+  position: fixed; top: 18px; right: 18px; z-index: 9999;
+  display: flex; flex-direction: column; gap: 10px;
+  max-width: min(340px, calc(100vw - 36px));
+  pointer-events: none;
+}
+.toast {
+  display: flex; align-items: center; gap: 9px;
+  background: var(--card-bg); color: var(--texto); border: 1px solid var(--borde);
+  border-left: 4px solid var(--verde);
+  padding: 12px 14px; border-radius: 10px; box-shadow: var(--sombra);
+  font-size: 13.5px; font-weight: 700; line-height: 1.3;
+  pointer-events: auto;
+  animation: toast-entrada 0.25s ease forwards, toast-salida 0.3s ease forwards 2.7s;
+}
+.toast i { font-size: 17px; flex-shrink: 0; color: var(--verde); }
+.toast-error { border-left-color: var(--rojo); }
+.toast-error i { color: var(--rojo); }
+@keyframes toast-entrada {
+  from { opacity: 0; transform: translateX(24px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+@keyframes toast-salida {
+  from { opacity: 1; transform: translateX(0); }
+  to { opacity: 0; transform: translateX(24px); }
+}
+
+@media (max-width: 900px) {
+  .toast-container { top: auto; bottom: 18px; right: 12px; left: 12px; max-width: none; }
+}
+
+/* ========================================
+   GESTIÓN DE CATÁLOGOS (admin)
+   ======================================== */
+.catalogos-lista { display: flex; flex-direction: column; gap: 8px; margin-top: 10px; }
+.catalogo-fila {
+  display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+  border: 1px solid var(--borde); border-radius: 10px; padding: 10px 12px; background: var(--bg);
+}
+.catalogo-fila-sistemas { align-items: flex-start; }
+.catalogo-input {
+  flex: 1; min-width: 160px; padding: 8px 10px; border: 1px solid var(--borde); border-radius: 8px;
+  background: var(--card-bg); color: var(--texto); font-weight: 700; font-size: 13px;
+}
+.catalogo-problemas {
+  flex: 2; min-width: 220px; padding: 8px 10px; border: 1px solid var(--borde); border-radius: 8px;
+  background: var(--card-bg); color: var(--texto); font-size: 12.5px; font-family: inherit; resize: vertical;
+}
+.catalogo-acciones { display: flex; gap: 6px; flex-shrink: 0; }
+
+/* ========================================
+   BOTÓN DESHABILITADO (ej. "Me surten" sin stock en bodega)
+   ======================================== */
+.btn-disabled {
+  opacity: 0.5; pointer-events: none; filter: grayscale(0.4);
+  background: var(--tabla-header) !important; color: var(--texto-sub) !important;
+}
+
+/* ========================================
+   .floating-header / .compact-filter-bar — barra de filtros horizontal.
+   Es el mismo mecanismo con dos nombres de clase (para que ambos funcionen
+   igual), estándar en TODAS las vistas del panel.
+   VUELVE a ser "sticky", pegada justo debajo del título, CERO gap entre
+   ambos (top: 64px = exactamente la altura del título, sin ningún margen
+   extra) — así no hay ningún hueco sin fondo por donde se vea pasar la
+   tabla al hacer scroll. Sin sombra (diseño plano/estático), sin scroll
+   interno, sin contenedores nuevos. */
+.floating-header,
+.compact-filter-bar {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 64px; /* = altura exacta de .panel-titulo-sticky, sin espacio en medio */
+  z-index: 91; /* debajo del título (92), arriba de la tabla (50) */
+  background-color: var(--card-bg);
+  border-radius: 12px;
+  padding: 10px 14px; /* mitad del padding original (20px) */
+  border: 1px solid var(--borde);
+  margin: 0; /* sin margen: la tabla empieza justo donde termina la barra,
+                para que el cálculo del thead (panel.js) no tenga que
+                adivinar ningún espacio extra */
+}
+/* El título deja de "robar" una fila completa: queda como una etiqueta
+   compacta más, a la izquierda de la barra. */
+.floating-header h2 {
+  margin: 0; font-size: 14px; font-weight: 700; white-space: nowrap; flex-shrink: 0;
+}
+/* Texto informativo/estado (ej. "Turno de referencia: T1...") ya no es una
+   línea de bloque: se acomoda como un elemento más de la barra, y solo pasa
+   a su propia línea completa (order:99) si no cabe en el espacio restante. */
+.floating-header > .sub,
+.floating-header > p.msg {
+  margin: 0; flex-basis: 100%; order: 99; font-size: 12px;
+}
+.floating-header > .sub:empty,
+.floating-header > p.msg:empty { display: none; }
+/* Los botones Ver T1/T2/T3 (.tabs-secundarias) ya son un flex propio: al
+   quedar dentro de la barra se acomodan solos, lado a lado — solo se le
+   quita el margen inferior que tenía como bloque independiente. */
+.floating-header .tabs-secundarias { margin: 0; gap: 8px; }
+
+/* Reemplaza el <label>Texto <input></label> apilado verticalmente: un
+   icono adentro explica el campo por sí solo, sin robar una línea aparte. */
+.filtro-compacto {
+  display: flex; align-items: center; gap: 7px;
+  height: 38px; padding: 0 12px;
+  background: var(--bg); border: 1px solid var(--borde); border-radius: 8px;
+  flex: 0 0 auto; margin: 0;
+}
+.filtro-compacto i { font-size: 15px; color: var(--texto-sub); flex-shrink: 0; }
+.filtro-compacto select,
+.filtro-compacto input {
+  border: none; background: transparent; padding: 0; height: 100%;
+  font-size: 13px; font-weight: 600; color: var(--texto); min-width: 0; width: auto;
+}
+.filtro-compacto input[type="date"] { min-width: 118px; }
+.filtro-compacto input[type="text"] { min-width: 130px; }
+.filtro-compacto select:focus,
+.filtro-compacto input:focus { outline: none; }
+
+@media (max-width: 640px) {
+  .panel-titulo-sticky { height: 52px; }
+  .floating-header, .compact-filter-bar { top: 52px; padding: 8px 10px; gap: 8px; }
+  .filtro-compacto { height: 36px; padding: 0 9px; }
+}
+
+/* ========================================
+   BARRAS DE SCROLL PERSONALIZADAS (Webkit: Chrome, Edge, Safari)
+   Delgadas, track transparente, thumb gris oscuro translúcido y redondeado
+   — reemplaza la barra blanca nativa que rompía la estética en modo oscuro.
+   ======================================== */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(120, 130, 150, 0.4);
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(120, 130, 150, 0.6);
+}
+/* Firefox: equivalente más cercano disponible (sin control de track/thumb por separado) */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(120, 130, 150, 0.4) transparent;
+}

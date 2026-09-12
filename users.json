@@ -1,0 +1,83 @@
+[
+  {
+    "nombre": "Eduardo",
+    "password": "eduardo2026",
+    "rol": "operativo",
+    "sucursales": [
+      "REPUBLICA",
+      "SENDERO",
+      "METROPLEX",
+      "CONCORDIA",
+      "PUEBLO NUEVO",
+      "ANDES",
+      "LETY",
+      "FRAY",
+      "PUENTES",
+      "COLOSIO"
+    ]
+  },
+  {
+    "nombre": "Hector",
+    "password": "hector2026",
+    "rol": "operativo",
+    "sucursales": [
+      "TECNOLOGICO",
+      "TEC EXPRESS",
+      "2 DE ABRIL",
+      "DAMASCO",
+      "MOLINETE",
+      "ARTEAGA"
+    ]
+  },
+  {
+    "nombre": "Yessy",
+    "password": "1705D",
+    "rol": "lider",
+    "sucursales": [
+      "Benito Juárez",
+      "METRO CUAHUTEMOC",
+      "METRO UNIVERSIDAD",
+      "RAUL SALINAS 2"
+    ]
+  },
+  {
+    "nombre": "Karen",
+    "password": "karen2026",
+    "rol": "lider",
+    "sucursales": [
+      "PABLO LIVAS 1",
+      "ELOY CAVAZOS 2"
+    ]
+  },
+  {
+    "nombre": "Alejandro",
+    "password": "2160AM",
+    "rol": "lider",
+    "sucursales": [
+      "PABLO LIVAS 2",
+      "AV MEXICO"
+    ]
+  },
+  {
+    "nombre": "Alessandro",
+    "password": "Alessandro13579",
+    "rol": "lider",
+    "sucursales": [
+      "RODAS",
+      "LINCOLN OXXO",
+      "LINCOLN 2",
+      "SIMON BOLIVAR",
+      "INSURGENTES"
+    ]
+  },
+  {
+    "nombre": "Samantha",
+    "password": "RomaRyu083.",
+    "rol": "lider",
+    "sucursales": [
+      "RODAS",
+      "ANTIGONA",
+      "RUIZ CORTINEZ"
+    ]
+  }
+]
